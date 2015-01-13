@@ -2,16 +2,15 @@
 set nocompatible
 
 filetype off                    " force reloading *after* pathogen loaded
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 " let Vundle manage Vundle, required
-Plugin 'gmarik/vundle'
+Plugin 'gmarik/Vundle.vim'
 
 " My Plugin here:
 "
 " original repos on github
-Plugin 'altercation/vim-colors-solarized'
 Plugin 'bling/vim-airline'
 Plugin 'bling/vim-bufferline'
 Plugin 'burnettk/vim-angular'
@@ -19,7 +18,7 @@ Plugin 'chriskempson/base16-vim'
 Plugin 'Glench/Vim-Jinja2-Syntax'
 Plugin 'kien/ctrlp.vim'
 Plugin 'Lokaltog/vim-easymotion'
-Plugin 'mattn/zencoding-vim'
+Plugin 'mattn/emmet-vim'
 Plugin 'mileszs/ack.vim'
 Plugin 'othree/html5.vim'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
@@ -33,7 +32,9 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'L9'
 Plugin 'FuzzyFinder'
 
-filetype plugin indent on       " enable detection, plugins and indenting in one step
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " enable detection, plugins and indenting in one step
 
 " Change the mapleader from \ to ,
 let mapleader=","
