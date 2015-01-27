@@ -39,6 +39,7 @@ end
 -- {{{ Variable definitions
 -- Themes define colours, icons, font and wallpapers.
 beautiful.init("/usr/share/awesome/themes/default/theme.lua")
+beautiful.wallpaper = "/usr/local/share/wallpapers/archlinux.jpg"
 
 -- This is used later as the default terminal and editor to run.
 terminal = "termite"
@@ -371,6 +372,8 @@ awful.rules.rules = {
       properties = { floating = true } },
     { rule = { class = "gimp" },
       properties = { floating = true } },
+    { rule = { name = "GoDo" },
+      properties = { border_width = 0 } },
     -- Set Firefox to always map on tags number 2 of screen 1.
     -- { rule = { class = "Firefox" },
     --   properties = { tag = tags[1][2] } },
