@@ -1,0 +1,12 @@
+[user]
+	name = Valentin Hăloiu
+	email = vially.ichb@gmail.com
+[push]
+	default = simple
+[alias]
+    a = add
+    c = commit
+    ca = commit -a
+    s = status
+    d = diff
+    dc = diff --cached
