@@ -6,7 +6,9 @@
 [alias]
     a = add
     c = commit
+    cm = commit -m
     ca = commit -a
+    cam = commit -a -m
     s = status
     d = diff
     dc = diff --cached
