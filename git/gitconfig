@@ -12,3 +12,4 @@
     s = status
     d = diff
     dc = diff --cached
+    lol = log --graph --decorate --pretty=oneline --abbrev-commit --all
