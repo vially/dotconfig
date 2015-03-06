@@ -17,8 +17,10 @@ gpicview/
 gtk-2.0/
 gtk-3.0/bookmarks
 htop/
+ImageMagick/
 inkscape/
 libfm/
+libreoffice/
 massren/
 mc/
 menus/
@@ -28,6 +30,7 @@ ranger/
 transmission/
 tox/
 systemd/user/*.wants/
+systemd/user/*.service
 sublime-text-3/
 vlc/
 unity3d/
