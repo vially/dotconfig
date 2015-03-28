@@ -8,6 +8,7 @@ chromium/
 configstore/
 dconf/
 direnv/
+filezilla/
 fish/
 gcloud/
 gconf/
@@ -16,6 +17,7 @@ gpick/
 gpicview/
 gtk-2.0/
 gtk-3.0/bookmarks
+hotkeys/
 htop/
 ImageMagick/
 inkscape/
