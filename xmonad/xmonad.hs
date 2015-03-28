@@ -44,7 +44,7 @@ myKeys = [ ((mod4Mask, xK_p), spawn "ayr")
          , ((mod4Mask .|. shiftMask, xK_s), runOrRaise "termite" (className =? "Termite"))
          , ((mod4Mask .|. shiftMask, xK_i), runOrRaiseNext "chromium" (className =? "Chromium"))
          , ((mod4Mask .|. shiftMask, xK_p), spawn "ayr -s")
-         , ((mod4Mask .|. shiftMask, xK_o), spawn "go_run_gruncher.fish")
+         , ((mod4Mask .|. shiftMask, xK_o), spawn "gruncher")
          , ((mod4Mask .|. shiftMask, xK_z), runOrRaise "zeal" (className =? "zeal"))
          , ((mod4Mask .|. controlMask, xK_x), shellPrompt defaultXPConfig)
          , ((mod4Mask .|. shiftMask, xK_x), runOrRaisePrompt defaultXPConfig)
@@ -73,7 +73,7 @@ myConfig = defaultConfig
         , layoutHook        = myLayout
         , handleEventHook   = fullscreenEventHook
         , terminal          = "termite"
-        , borderWidth       = 1
+        , borderWidth       = 0
         , manageHook        = manageHook defaultConfig <+> composeAll myManageHook
         , startupHook       = setWMName "LG3D"
         , workspaces        = myWorkspaces
