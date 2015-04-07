@@ -68,7 +68,7 @@ myStatusBarPP = xmobarPP { ppCurrent = xmobarColor "#f0c674" "" . wrap "[" "]"
                          , ppUrgent  = xmobarColor "red" ""
                          }
 
-myConfig = defaultConfig
+myConfig = ewmh defaultConfig
         { modMask           = mod4Mask
         , layoutHook        = myLayout
         , handleEventHook   = fullscreenEventHook

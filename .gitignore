@@ -33,6 +33,7 @@ transmission/
 tox/
 systemd/user/*.wants/
 systemd/user/*.service
+systemd/user/*.socket
 sublime-text-3/
 vlc/
 unity3d/
