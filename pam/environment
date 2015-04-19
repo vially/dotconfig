@@ -1,0 +1,3 @@
+BROWSER=chromium
+EDITOR=vim
+GOPATH=/home/vially/.local/share/go
