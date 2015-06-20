@@ -2,3 +2,6 @@
 .env
 .venv
 .taskproj
+.idea/
+*.iml
+gin-bin
