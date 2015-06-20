@@ -1,4 +1,4 @@
-Config { font = "xft:Source Code Pro:size=11"
+Config { font = "xft:Pragmata Pro:size=11"
        , bgColor = "#1d1f21"
        , fgColor = "#969896"
        , position = Top
