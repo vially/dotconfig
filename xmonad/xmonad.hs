@@ -75,7 +75,6 @@ myConfig = ewmh defaultConfig
         , terminal          = "termite"
         , borderWidth       = 0
         , manageHook        = manageHook defaultConfig <+> composeAll myManageHook
-        , startupHook       = setWMName "LG3D"
         , workspaces        = myWorkspaces
         } `additionalKeys` myKeys
 
