@@ -1,5 +1,7 @@
 Atom/
 Atom-Shell/
+Code/
+Electron/
 aws/
 ayr/
 burp/
@@ -26,6 +28,7 @@ libreoffice/
 massren/
 mc/
 menus/
+mono.addins/
 opera/
 pcmanfm/
 pulse/
@@ -37,8 +40,10 @@ systemd/user/*.service
 systemd/user/*.socket
 sublime-text-3/
 teamviewer10/
+tint2/
 transmission/
 tox/
+vivaldi/
 vlc/
 unity3d/
 Pinta/
