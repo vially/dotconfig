@@ -30,6 +30,7 @@ opera/
 pcmanfm/
 pulse/
 ranger/
+rds/
 Skype/
 systemd/user/*.wants/
 systemd/user/*.service
