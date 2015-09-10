@@ -3,7 +3,7 @@ Description=Compton Service
 
 [Service]
 Environment=DISPLAY=:0
-ExecStart=/usr/bin/compton
+ExecStart=/usr/bin/bash -c "sleep 3 && compton"
 
 [Install]
 WantedBy=default.target
