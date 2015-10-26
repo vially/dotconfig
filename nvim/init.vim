@@ -2,7 +2,7 @@
 set nocompatible
 
 filetype off                    " force reloading *after* pathogen loaded
-set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=~/.local/share/Vundle.vim
 call vundle#begin()
 
 " let Vundle manage Vundle, required
