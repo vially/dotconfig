@@ -38,13 +38,9 @@ myManageHook =
 -- Keybinding to toggle the gap for the bar.
 toggleStrutsKey XConfig {XMonad.modMask = modMask} = (modMask, xK_b)
 
-myKeys = [ ((mod4Mask, xK_p), spawn "ayr")
-         , ((mod4Mask, xK_o), spawn "gruncher")
-         , ((mod4Mask .|. shiftMask, xK_p), spawn "ayr -s")
+myKeys = [ ((mod4Mask, xK_o), spawn "gruncher")
          , ((mod4Mask .|. shiftMask, xK_s), runOrRaise "termite" (className =? "Termite"))
          , ((mod4Mask .|. shiftMask, xK_i), runOrRaiseNext "chromium" (className =? "Chromium"))
-         , ((mod4Mask .|. shiftMask, xK_p), spawn "ayr -s")
-         , ((mod4Mask .|. shiftMask, xK_o), spawn "gruncher")
          , ((mod4Mask .|. shiftMask, xK_z), runOrRaise "zeal" (className =? "zeal"))
          , ((mod4Mask .|. controlMask, xK_x), shellPrompt defaultXPConfig)
          , ((mod4Mask .|. shiftMask, xK_x), runOrRaisePrompt defaultXPConfig)
