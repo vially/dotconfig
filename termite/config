@@ -1,5 +1,6 @@
 [options]
 font = Pragmata Pro 12
+scrollback_lines = 10000
 
 # Base16 Tomorrow
 [colors]
