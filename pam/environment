@@ -1,5 +1,5 @@
 BROWSER=chromium
-EDITOR=vim
+EDITOR=nvim
 GOPATH=/home/vially/.local/share/go
 GO15VENDOREXPERIMENT=1
 _JAVA_AWT_WM_NONREPARENTING=1
