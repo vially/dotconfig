@@ -2,38 +2,30 @@
 set nocompatible
 
 filetype off                    " force reloading *after* pathogen loaded
-set rtp+=~/.local/share/Vundle.vim
-call vundle#begin()
+call plug#begin('~/.local/share/vim/plugged')
 
-" let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
-
-" My Plugin here:
-"
-" original repos on github
-Plugin 'bling/vim-airline'
-Plugin 'bling/vim-bufferline'
-Plugin 'burnettk/vim-angular'
-Plugin 'chriskempson/base16-vim'
-Plugin 'Glench/Vim-Jinja2-Syntax'
-Plugin 'kien/ctrlp.vim'
-Plugin 'Lokaltog/vim-easymotion'
-Plugin 'mattn/emmet-vim'
-Plugin 'mileszs/ack.vim'
-Plugin 'othree/html5.vim'
-Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-Plugin 'scrooloose/nerdtree'
-Plugin 'Shougo/unite.vim'
-Plugin 'tpope/vim-fugitive'
-Plugin 'tpope/vim-markdown'
-Plugin 'tpope/vim-surround'
-Plugin 'terryma/vim-multiple-cursors'
+Plug 'bling/vim-airline'
+Plug 'bling/vim-bufferline'
+Plug 'burnettk/vim-angular'
+Plug 'chriskempson/base16-vim'
+Plug 'Glench/Vim-Jinja2-Syntax'
+Plug 'kien/ctrlp.vim'
+Plug 'Lokaltog/vim-easymotion'
+Plug 'mattn/emmet-vim'
+Plug 'mileszs/ack.vim'
+Plug 'othree/html5.vim'
+Plug 'rstacruz/sparkup', {'rtp': 'vim/'}
+Plug 'scrooloose/nerdtree'
+Plug 'Shougo/unite.vim'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-markdown'
+Plug 'tpope/vim-surround'
+Plug 'terryma/vim-multiple-cursors'
 " vim-scripts repos
-Plugin 'L9'
-Plugin 'FuzzyFinder'
+Plug 'L9'
+Plug 'FuzzyFinder'
 
-" All of your Plugins must be added before the following line
-call vundle#end()            " required
+call plug#end()
 filetype plugin indent on    " enable detection, plugins and indenting in one step
 
 " Change the mapleader from \ to ,
