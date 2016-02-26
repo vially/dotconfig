@@ -9,3 +9,6 @@ x-scheme-handler/tg=telegram.desktop
 
 [Added Associations]
 text/html=Atom.desktop;
+image/png=sxiv.desktop;
+text/plain=atom.desktop;
+video/x-matroska=vlc.desktop;mpv.desktop;
