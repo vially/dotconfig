@@ -17,3 +17,5 @@
     lol = log --graph --decorate --pretty=oneline --abbrev-commit --all
 [core]
     excludesfile = ~/.config/git/gitignore
+[commit]
+	gpgsign = true
