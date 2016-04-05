@@ -2,8 +2,6 @@
 	name = Valentin Hăloiu
 	email = vially.ichb@gmail.com
 	signingKey = 8A41CB73
-[push]
-	default = simple
 [alias]
     a = add
     c = commit
@@ -16,6 +14,6 @@
     dc = diff --cached
     lol = log --graph --decorate --pretty=oneline --abbrev-commit --all
 [core]
-    excludesfile = ~/.config/git/gitignore
+    excludesFile = ~/.config/git/gitignore
 [commit]
 	gpgSign = true
