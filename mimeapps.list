@@ -5,10 +5,9 @@ image/png=sxiv.desktop
 image/x-icon=chromium.desktop
 x-scheme-handler/http=chromium.desktop
 x-scheme-handler/https=chromium.desktop
-x-scheme-handler/tg=telegram.desktop
+x-scheme-handler/magnet=transmission-gtk.desktop
 
 [Added Associations]
-text/html=Atom.desktop;
 image/png=sxiv.desktop;
 text/plain=atom.desktop;
 video/x-matroska=vlc.desktop;mpv.desktop;

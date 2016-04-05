@@ -18,4 +18,4 @@
 [core]
     excludesfile = ~/.config/git/gitignore
 [commit]
-	gpgsign = true
+	gpgSign = true
