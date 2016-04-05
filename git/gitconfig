@@ -1,6 +1,7 @@
 [user]
 	name = Valentin Hăloiu
 	email = vially.ichb@gmail.com
+	signingKey = 8A41CB73
 [push]
 	default = simple
 [alias]
