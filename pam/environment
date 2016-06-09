@@ -1,3 +1,4 @@
+XKB_DEFAULT_LAYOUT=ro
 BROWSER=chromium
 EDITOR=nvim
 GOPATH=/home/vially/.local/share/go
