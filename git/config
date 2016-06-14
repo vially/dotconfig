@@ -17,3 +17,5 @@
     excludesFile = ~/.config/git/gitignore
 [commit]
 	gpgSign = true
+[diff]
+	compactionHeuristic = true
