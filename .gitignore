@@ -51,6 +51,7 @@ Thunar/
 teamviewer10/
 tint2/
 transmission/
+transmission-remote-gtk/
 tox/
 vifm/
 vivaldi/
@@ -58,13 +59,15 @@ vlc/
 unity3d/
 xfce4/
 Pinta/
+QtProject/
+WebTorrent/
 Zeal/
 gh
 gh-update
 hub
 pavucontrol.ini
-Trolltech.conf
-QtProject.conf
 user-dirs.dirs
 user-dirs.locale
 weston.ini
+Trolltech.conf
+QtProject.conf
