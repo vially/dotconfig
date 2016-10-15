@@ -2,6 +2,6 @@ XKB_DEFAULT_LAYOUT=ro
 BROWSER=chromium
 EDITOR=nvim
 GOPATH=/home/vially/.local/share/go
-QT_QPA_PLATFORM=wayland-egl
 _JAVA_AWT_WM_NONREPARENTING=1
-_JAVA_OPTIONS="-Dawt.useSystemAAFontSettings=gasp"
+_JAVA_OPTIONS="-Dawt.useSystemAAFontSettings=lcd"
+TERMINAL=termite
