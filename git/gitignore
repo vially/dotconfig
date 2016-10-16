@@ -3,9 +3,7 @@
 .venv
 .taskproj
 .idea/
+.vscode/
+.wercker/
 *.iml
 gin-bin
-_builds/
-_projects/
-_steps/
-_cache/
