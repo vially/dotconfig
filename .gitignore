@@ -15,7 +15,9 @@ discord/
 DUI/
 evolution/
 filezilla/
-fish/
+fish/fishd.*
+fish/completions/fisher.fish
+fish/conf.d/local.fish
 gcloud/
 gconf/
 geeqie/
