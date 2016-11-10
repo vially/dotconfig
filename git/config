@@ -20,3 +20,7 @@
 	gpgSign = true
 [diff]
 	compactionHeuristic = true
+[push]
+	default = current
+[remote]
+	pushdefault = origin
