@@ -165,6 +165,20 @@ bindsym $mod+z workspace back_and_forth
 bindsym $mod+Shift+i [class="chromium"] focus
 bindsym $mod+Shift+m exec i3-input -F 'mark %s' -P 'Mark name: '
 bindsym $mod+m exec i3-input -F '[con_mark=%s] focus' -P 'Go to mark: '
+exec albert
+exec --no-startup-id swapcaps
+
+# https://github.com/ValveSoftware/steam-for-linux/issues/1040
+for_window [class="^Steam$" title="^Friends$"] floating enable
+for_window [class="^Steam$" title="Steam - News"] floating enable
+for_window [class="^Steam$" title=".* - Chat"] floating enable
+for_window [class="^Steam$" title="^Settings$"] floating enable
+for_window [class="^Steam$" title=".* - event started"] floating enable
+for_window [class="^Steam$" title=".* CD key"] floating enable
+for_window [class="^Steam$" title="^Steam - Self Updater$"] floating enable
+for_window [class="^Steam$" title="^Screenshot Uploader$"] floating enable
+for_window [class="^Steam$" title="^Steam Guard - Computer Authorization Required$"] floating enable
+for_window [title="^Steam Keyboard$"] floating enable
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
