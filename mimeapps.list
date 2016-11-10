@@ -1,5 +1,6 @@
 [Default Applications]
 text/html=chromium.desktop
+text/plain=visual-studio-code.desktop
 application/pdf=evince.desktop
 application/x-bittorrent=transmission-gtk.desktop
 image/png=sxiv.desktop
@@ -10,6 +11,6 @@ x-scheme-handler/magnet=transmission-gtk.desktop
 
 [Added Associations]
 image/png=sxiv.desktop;
-text/plain=atom.desktop;
+text/plain=visual-studio-code.desktop;
 video/x-matroska=vlc.desktop;mpv.desktop;
-inode/symlink=atom.desktop;
+inode/symlink=visual-studio-code.desktop;
