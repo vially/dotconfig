@@ -1,5 +1,7 @@
 function vi_key_bindings
     fish_vi_key_bindings
-    bind \cl clear 'commandline -f repaint'
-    bind -M insert \cl clear 'commandline -f repaint'
+
+    bind -M insert \ca beginning-of-line
+    bind -M insert \ce end-of-line
+    bind -M insert \cf accept-autosuggestion
 end
