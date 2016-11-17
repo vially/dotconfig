@@ -1,6 +1,12 @@
 Atom/
 Atom-Shell/
-Code/
+Code/Cache/
+Code/Cookies
+Code/Cookies-journal
+Code/GPUCache/
+Code/User/workspaceStorage/
+Code/Local Storage/
+Code/storage.json
 Electron/
 aws/
 ayr/
