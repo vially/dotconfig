@@ -166,7 +166,10 @@ bindsym $mod+Shift+i [class="chromium"] focus
 bindsym $mod+Shift+m exec i3-input -F 'mark %s' -P 'Mark name: '
 bindsym $mod+m exec i3-input -F '[con_mark=%s] focus' -P 'Go to mark: '
 exec albert
-exec --no-startup-id swapcaps
+
+# disable caps lock and swap with ctrl
+exec --no-startup-id setxkbmap -option ctrl:swapcaps
+exec --no-startup-id xmodmap -e "keycode 37 = "
 
 # https://github.com/ValveSoftware/steam-for-linux/issues/1040
 for_window [class="^Steam$" title="^Friends$"] floating enable
@@ -179,6 +182,14 @@ for_window [class="^Steam$" title="^Steam - Self Updater$"] floating enable
 for_window [class="^Steam$" title="^Screenshot Uploader$"] floating enable
 for_window [class="^Steam$" title="^Steam Guard - Computer Authorization Required$"] floating enable
 for_window [title="^Steam Keyboard$"] floating enable
+
+# Pulse Audio controls
+bindsym XF86AudioRaiseVolume exec --no-startup-id volumectl up #increase sound volume
+bindsym XF86AudioLowerVolume exec --no-startup-id volumectl down #decrease sound volume
+bindsym XF86AudioMute exec --no-startup-id volumectl toggle # mute sound
+
+# bar toggle, hide or show
+bindsym $mod+Shift+b bar mode toggle
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
