@@ -18,12 +18,14 @@ dconf/
 Deepin/
 direnv/
 discord/
+discordcanary/
 DUI/
 evolution/
 filezilla/
 fish/fishd.*
 fish/completions/fisher.fish
 fish/conf.d/local.fish
+fontforge/
 gcloud/
 gconf/
 geeqie/
