@@ -20,6 +20,7 @@
 	gpgSign = true
 [diff]
 	compactionHeuristic = true
+    indentHeuristic = true
 [push]
 	default = current
 [remote]
