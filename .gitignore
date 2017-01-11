@@ -1,6 +1,8 @@
 Atom/
 Atom-Shell/
+Code/Backups/
 Code/Cache/
+Code/CachedData/
 Code/Cookies
 Code/Cookies-journal
 Code/GPUCache/
@@ -8,6 +10,8 @@ Code/User/workspaceStorage/
 Code/Local Storage/
 Code/storage.json
 Electron/
+Epic/
+Hyper/
 aws/
 ayr/
 burp/

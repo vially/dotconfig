@@ -3,21 +3,4 @@
     "key": "ctrl+shift+alt+r",
     "command": "workbench.action.tasks.test",
     "when": "editorTextFocus"
-}, {
-    "key": "ctrl+shift+r",
-    "command": "go.test.previous",
-    "when": "editorTextFocus"
-}, {
-    "key": "ctrl+alt+r",
-    "command": "go.test.package",
-    "when": "editorTextFocus"
-}, {
-    "key": "ctrl+q",
-    "command": "go.test.cursor",
-    "when": "editorTextFocus"
-}, {
-    "key": "ctrl+shift+q",
-    "command": "go.test.file",
-    "when": "editorTextFocus"
-}
-]
+}]
