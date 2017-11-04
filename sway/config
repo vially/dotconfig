@@ -51,7 +51,7 @@ output * bg /usr/share/sway/Sway_Wallpaper_Blue_1920x1080.png fill
     bindsym $mod+Shift+r reload
 
     # exit sway (logs you out of your wayland session)
-    bindsym $mod+Shift+q exit
+    bindsym $mod+Shift+Escape exit
 #
 # Moving around:
 #
@@ -146,6 +146,7 @@ output * bg /usr/share/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 # Status Bar:
 #
 bar {
+    mode hide
     position top
     colors {
         statusline #ffffff
@@ -165,10 +166,30 @@ bar {
 
 # Custom config
 new_window none
-for_window [title="gruncher-floating"] floating enable
-bindsym $mod+Shift+w move container to output left
-bindsym $mod+Shift+e move container to output right
-bindsym $mod+o exec gruncher
+new_float none
+workspace_auto_back_and_forth yes
+bindsym $mod+z workspace back_and_forth
+bindsym $mod+Shift+i [class="chromium"] focus
 bindsym XF86AudioRaiseVolume exec --no-startup-id volumectl up
 bindsym XF86AudioLowerVolume exec --no-startup-id volumectl down
 bindsym XF86AudioMute exec --no-startup-id volumectl toggle
+
+# https://github.com/ValveSoftware/steam-for-linux/issues/1040
+for_window [class="^Steam$" title="^Friends$"] floating enable
+for_window [class="^Steam$" title="Steam - News"] floating enable
+for_window [class="^Steam$" title=".* - Chat"] floating enable
+for_window [class="^Steam$" title="^Settings$"] floating enable
+for_window [class="^Steam$" title=".* - event started"] floating enable
+for_window [class="^Steam$" title=".* CD key"] floating enable
+for_window [class="^Steam$" title="^Steam - Self Updater$"] floating enable
+for_window [class="^Steam$" title="^Screenshot Uploader$"] floating enable
+for_window [class="^Steam$" title="^Steam Guard - Computer Authorization Required$"] floating enable
+for_window [title="^Steam Keyboard$"] floating enable
+
+# Pulse Audio controls
+bindsym XF86AudioRaiseVolume exec --no-startup-id volumectl up #increase sound volume
+bindsym XF86AudioLowerVolume exec --no-startup-id volumectl down #decrease sound volume
+bindsym XF86AudioMute exec --no-startup-id volumectl toggle # mute sound
+
+# bar toggle, hide or show
+bindsym $mod+Shift+b bar mode toggle
