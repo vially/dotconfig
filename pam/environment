@@ -1,5 +1,7 @@
+GOPATH DEFAULT=@{HOME}/.local/share/go
 XKB_DEFAULT_LAYOUT=ro
+XKB_DEFAULT_OPTIONS=ctrl:swapcaps
 BROWSER=chromium
 EDITOR=nvim
-GOPATH=/home/vially/.local/share/go
 TERMINAL=termite
+QT_QPA_PLATFORM=wayland-egl
