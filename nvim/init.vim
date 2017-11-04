@@ -2,7 +2,7 @@
 set nocompatible
 
 filetype off                    " force reloading *after* pathogen loaded
-call plug#begin('~/.local/share/vim/plugged')
+call plug#begin('~/.local/share/nvim/plugged')
 
 Plug 'bling/vim-airline'
 Plug 'bling/vim-bufferline'
@@ -21,9 +21,8 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-markdown'
 Plug 'tpope/vim-surround'
 Plug 'terryma/vim-multiple-cursors'
-" vim-scripts repos
-Plug 'L9'
-Plug 'FuzzyFinder'
+Plug 'junegunn/fzf'
+Plug 'junegunn/fzf.vim'
 
 call plug#end()
 filetype plugin indent on    " enable detection, plugins and indenting in one step
