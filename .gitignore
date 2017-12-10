@@ -16,6 +16,9 @@ Code/machineid
 Electron/
 Epic/
 Hyper/
+albert/core.db
+albert/last_used_version
+albert/org.albert.extension.kvstore/
 aws/
 ayr/
 burp/
