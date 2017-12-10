@@ -10,6 +10,7 @@ image/x-icon=sxiv.desktop
 x-scheme-handler/http=chromium.desktop
 x-scheme-handler/https=chromium.desktop
 x-scheme-handler/magnet=transmission-gtk.desktop
+x-scheme-handler/tg=telegramdesktop.desktop
 
 [Added Associations]
 text/plain=visual-studio-code.desktop;
