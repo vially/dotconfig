@@ -29,6 +29,18 @@ font pango:monospace 8
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
+# assign workspaces to outputs
+workspace 1 output DP-0
+workspace 2 output DP-0
+workspace 3 output DP-0
+workspace 4 output DP-0
+workspace 5 output HDMI-0
+workspace 6 output HDMI-0
+workspace 7 output HDMI-0
+workspace 8 output DVI-D-0
+workspace 9 output DVI-D-0
+workspace 10 output DVI-D-0
+
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 
@@ -37,7 +49,6 @@ bindsym $mod+Shift+c kill
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec dmenu_run
-bindsym $mod+o exec gruncher
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
@@ -45,6 +56,10 @@ bindsym $mod+o exec gruncher
 
 # Make the currently focused window a scratchpad
 bindsym $mod+Shift+minus move scratchpad
+
+# Move workspace to another monitor
+bindsym $mod+Mod1+l move workspace to output right
+bindsym $mod+Mod1+h move workspace to output left
 
 # Show the first scratchpad window
 bindsym $mod+minus scratchpad show
@@ -185,6 +200,9 @@ for_window [class="^Steam$" title="^Steam - Self Updater$"] floating enable
 for_window [class="^Steam$" title="^Screenshot Uploader$"] floating enable
 for_window [class="^Steam$" title="^Steam Guard - Computer Authorization Required$"] floating enable
 for_window [title="^Steam Keyboard$"] floating enable
+
+# move applications to specific workspaces
+for_window [class="Code"] move container to workspace 3
 
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id volumectl up #increase sound volume
