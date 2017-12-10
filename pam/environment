@@ -4,4 +4,3 @@ XKB_DEFAULT_OPTIONS=ctrl:swapcaps
 BROWSER=chromium
 EDITOR=nvim
 TERMINAL=termite
-QT_QPA_PLATFORM=wayland-egl
