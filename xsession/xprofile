@@ -3,6 +3,3 @@ feh --bg-scale /usr/local/share/wallpapers/archlinux-flowers.png
 
 # set cursor
 xsetroot -cursor_name left_ptr
-
-# dual monitor setup
-xrandr --output HDMI3 --right-of HDMI1
