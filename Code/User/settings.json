@@ -2,6 +2,7 @@
 {
   "vim.useCtrlKeys": true,
   "vim.useSystemClipboard": true,
+  "vim.enableNeovim": true,
   "vim.hlsearch": true,
   "vim.leader": ",",
   "vim.otherModesKeyBindingsNonRecursive": [{
@@ -63,5 +64,12 @@
 ,
 "editor.cursorStyle": "block",
 "editor.cursorBlinking": "blink",
-"vim.disableAnnoyingNeovimMessage": true
+"editor.wordWrap": "off",
+"workbench.iconTheme": "vs-seti",
+"window.zoomLevel": 0,
+"editor.minimap.enabled": true,
+"search.useIgnoreFilesByDefault": true,
+"vim.disableAnnoyingNeovimMessage": true,
+"git.enableSmartCommit": true,
+"files.insertFinalNewline": true
 }
