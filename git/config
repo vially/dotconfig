@@ -27,3 +27,6 @@
     pushdefault = origin
 [http "https://gopkg.in"]
     followRedirects = true
+
+[include]
+    path = config.local

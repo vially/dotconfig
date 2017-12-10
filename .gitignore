@@ -41,6 +41,7 @@ fontforge/
 gcloud/
 gconf/
 geeqie/
+git/config.local
 gpick/
 gpicview/
 gtk-2.0/
