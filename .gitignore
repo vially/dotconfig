@@ -25,6 +25,7 @@ discord/
 discordcanary/
 DUI/
 evolution/
+etcher-electron/
 filezilla/
 fish/fishd.*
 fish/completions/fisher.fish
@@ -37,6 +38,7 @@ gpick/
 gpicview/
 gtk-2.0/
 gtk-3.0/bookmarks
+gnupg/
 hotkeys/
 htop/
 ImageMagick/
@@ -55,6 +57,7 @@ pulse/
 ranger/
 rds/
 Skype/
+skypeforlinux/
 sqlitebrowser/
 systemd/user/*.wants/
 systemd/user/*.service
@@ -81,6 +84,7 @@ Insomnia/
 composer/
 redisdesktop/
 wireshark/
+yarn/
 emaildefaults
 gh
 gh-update

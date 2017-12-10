@@ -62,5 +62,6 @@
   }
 ,
 "editor.cursorStyle": "block",
-"editor.cursorBlinking": "blink"
+"editor.cursorBlinking": "blink",
+"vim.disableAnnoyingNeovimMessage": true
 }
