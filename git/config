@@ -27,6 +27,7 @@
     pushdefault = origin
 [http "https://gopkg.in"]
     followRedirects = true
-
+[rebase]
+	autosquash = true
 [include]
     path = config.local
