@@ -5,71 +5,118 @@
   "vim.enableNeovim": true,
   "vim.hlsearch": true,
   "vim.leader": ",",
-  "vim.otherModesKeyBindingsNonRecursive": [{
-    "before": ["<leader>", "t"],
-    "after": [],
-    "commands": [{
-      "command": "go.test.file",
-      "args": []
-    }]
-  }, {
-    "before": ["<leader>", "T"],
-    "after": [],
-    "commands": [{
-      "command": "go.test.package",
-      "args": []
-    }]
-  }, {
-    "before": ["<leader>", "c"],
-    "after": [],
-    "commands": [{
-      "command": "go.test.cursor",
-      "args": []
-    }]
-  }, {
-    "before": ["<leader>", "<leader>", "t"],
-    "after": [],
-    "commands": [{
-      "command": "go.test.previous",
-      "args": []
-    }]
-  }, {
-    "before": ["<leader>", "f"],
-    "after": [],
-    "commands": [{
-      "command": "workbench.action.quickOpen",
-      "args": []
-    }]
-  }, {
-    "before": ["<leader>", "x"],
-    "after": [],
-    "commands": [{
-      "command": "workbench.action.showCommands",
-      "args": []
-    }]
-  }, {
-    "before": ["<leader>", "v"],
-    "after": [],
-    "commands": [{
-      "command": "workbench.action.output.toggleOutput",
-      "args": []
-    }]
-  }],
+  "vim.otherModesKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<leader>",
+        "t"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": "go.test.file",
+          "args": []
+        }
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "T"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": "go.test.package",
+          "args": []
+        }
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "c"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": "go.test.cursor",
+          "args": []
+        }
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "<leader>",
+        "t"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": "go.test.previous",
+          "args": []
+        }
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "f"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.quickOpen",
+          "args": []
+        }
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "x"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.showCommands",
+          "args": []
+        }
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "v"
+      ],
+      "after": [],
+      "commands": [
+        {
+          "command": "workbench.action.output.toggleOutput",
+          "args": []
+        }
+      ]
+    }
+  ],
   "search.exclude": {
-      "**/node_modules": true,
-      "**/bower_components": true,
-      "**/.idea": true,
-      "**/vendor": true
-  }
-,
-"editor.cursorStyle": "block",
-"editor.cursorBlinking": "blink",
-"editor.wordWrap": "off",
-"workbench.iconTheme": "vs-seti",
-"window.zoomLevel": 0,
-"editor.minimap.enabled": true,
-"search.useIgnoreFilesByDefault": true,
-"vim.disableAnnoyingNeovimMessage": true,
-"git.enableSmartCommit": true,
-"files.insertFinalNewline": true
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/.idea": true,
+    "**/vendor": true
+  },
+  "editor.cursorStyle": "block",
+  "editor.cursorBlinking": "blink",
+  "editor.wordWrap": "off",
+  "workbench.iconTheme": "vs-seti",
+  "window.zoomLevel": 0,
+  "editor.minimap.enabled": true,
+  "git.enableSmartCommit": true,
+  "files.insertFinalNewline": true,
+  "editor.formatOnSave": true,
+  "[html]": {
+    "editor.formatOnSave": false
+  },
+  "prettier.singleQuote": true,
+  "prettier.semi": false
 }
