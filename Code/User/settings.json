@@ -7,10 +7,7 @@
   "vim.leader": ",",
   "vim.otherModesKeyBindingsNonRecursive": [
     {
-      "before": [
-        "<leader>",
-        "t"
-      ],
+      "before": ["<leader>", "t"],
       "after": [],
       "commands": [
         {
@@ -20,10 +17,7 @@
       ]
     },
     {
-      "before": [
-        "<leader>",
-        "T"
-      ],
+      "before": ["<leader>", "T"],
       "after": [],
       "commands": [
         {
@@ -33,10 +27,7 @@
       ]
     },
     {
-      "before": [
-        "<leader>",
-        "c"
-      ],
+      "before": ["<leader>", "c"],
       "after": [],
       "commands": [
         {
@@ -46,11 +37,7 @@
       ]
     },
     {
-      "before": [
-        "<leader>",
-        "<leader>",
-        "t"
-      ],
+      "before": ["<leader>", "<leader>", "t"],
       "after": [],
       "commands": [
         {
@@ -60,10 +47,7 @@
       ]
     },
     {
-      "before": [
-        "<leader>",
-        "f"
-      ],
+      "before": ["<leader>", "f"],
       "after": [],
       "commands": [
         {
@@ -73,10 +57,7 @@
       ]
     },
     {
-      "before": [
-        "<leader>",
-        "x"
-      ],
+      "before": ["<leader>", "x"],
       "after": [],
       "commands": [
         {
@@ -86,10 +67,7 @@
       ]
     },
     {
-      "before": [
-        "<leader>",
-        "v"
-      ],
+      "before": ["<leader>", "v"],
       "after": [],
       "commands": [
         {
@@ -118,5 +96,17 @@
     "editor.formatOnSave": false
   },
   "prettier.singleQuote": true,
-  "prettier.semi": false
+  "prettier.semi": false,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true
+  }
 }

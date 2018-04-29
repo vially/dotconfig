@@ -31,3 +31,5 @@
 	autosquash = true
 [include]
     path = config.local
+[credential]
+	helper = cache
