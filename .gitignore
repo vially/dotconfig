@@ -1,4 +1,4 @@
-albert/org.albert.extension.kvstore/kvstore.db
+albert/org.albert.extension.snippets/snippets.db
 albert/last_used_version
 Atom/
 Atom-Shell/
@@ -17,6 +17,7 @@ Code/storage.json
 Code/machineid
 Electron/
 Epic/
+GIMP/
 Hyper/
 albert/core.db
 albert/last_used_version
@@ -28,7 +29,6 @@ calibre/
 chromium/
 configstore/
 dconf/
-Deepin/
 direnv/
 discord/
 discordcanary/
@@ -62,6 +62,7 @@ mono.addins/
 nemo/
 nightmare/
 opera/
+pavucontrol-qt/
 pcmanfm/
 pulse/
 ranger/
@@ -91,12 +92,12 @@ QtProject/
 VirtualBox/
 WebTorrent/
 yarn/
+yay/
 Zeal/
 Insomnia/
 composer/
 redisdesktop/
 wireshark/
-yarn/
 emaildefaults
 gh
 gh-update

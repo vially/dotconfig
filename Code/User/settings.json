@@ -5,7 +5,7 @@
   "vim.enableNeovim": true,
   "vim.hlsearch": true,
   "vim.leader": ",",
-  "vim.otherModesKeyBindingsNonRecursive": [
+  "vim.normalModeKeyBindingsNonRecursive": [
     {
       "before": ["<leader>", "t"],
       "after": [],
@@ -108,5 +108,9 @@
     "suppressNoRepositoryWarning": false,
     "suppressResultsExplorerNotice": false,
     "suppressShowKeyBindingsNotice": true
-  }
+  },
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "gitlens.historyExplorer.enabled": true
 }
