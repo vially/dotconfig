@@ -202,7 +202,7 @@ for_window [class="^Steam$" title="^Steam Guard - Computer Authorization Require
 for_window [title="^Steam Keyboard$"] floating enable
 
 # move applications to specific workspaces
-for_window [class="Code"] move container to workspace 3
+for_window [class="Code"] move --no-auto-back-and-forth container to workspace 3
 
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id volumectl up #increase sound volume
