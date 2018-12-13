@@ -67,6 +67,11 @@
       ]
     },
     {
+      "before": ["<leader>", "l"],
+      "after": [],
+      "commands": ["references-view.find"]
+    },
+    {
       "before": ["<leader>", "v"],
       "after": [],
       "commands": [
@@ -112,5 +117,7 @@
   "editor.codeActionsOnSave": {
     "source.organizeImports": true
   },
-  "gitlens.historyExplorer.enabled": true
+  "explorer.confirmDelete": false,
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.lineHistory.enabled": true
 }
