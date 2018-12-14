@@ -9,77 +9,27 @@
     {
       "before": ["<leader>", "t"],
       "after": [],
-      "commands": [
-        {
-          "command": "go.test.file",
-          "args": []
-        }
-      ]
+      "commands": ["workbench.action.tasks.test"]
     },
     {
-      "before": ["<leader>", "T"],
+      "before": ["<leader>", "b"],
       "after": [],
-      "commands": [
-        {
-          "command": "go.test.package",
-          "args": []
-        }
-      ]
+      "commands": ["workbench.action.tasks.build"]
     },
     {
-      "before": ["<leader>", "c"],
+      "before": ["<leader>", "r"],
       "after": [],
-      "commands": [
-        {
-          "command": "go.test.cursor",
-          "args": []
-        }
-      ]
+      "commands": ["workbench.action.tasks.reRunTask"]
     },
     {
-      "before": ["<leader>", "<leader>", "t"],
+      "before": ["<leader>", "q"],
       "after": [],
-      "commands": [
-        {
-          "command": "go.test.previous",
-          "args": []
-        }
-      ]
-    },
-    {
-      "before": ["<leader>", "f"],
-      "after": [],
-      "commands": [
-        {
-          "command": "workbench.action.quickOpen",
-          "args": []
-        }
-      ]
-    },
-    {
-      "before": ["<leader>", "x"],
-      "after": [],
-      "commands": [
-        {
-          "command": "workbench.action.showCommands",
-          "args": []
-        }
-      ]
+      "commands": ["workbench.action.togglePanel"]
     },
     {
       "before": ["<leader>", "l"],
       "after": [],
       "commands": ["references-view.find"]
-    },
-    {
-      "before": ["<leader>", "v"],
-      "after": [],
-      "commands": [
-        {
-          "command": "workbench.action.output.toggleOutput",
-          "args": []
-        }
-      ]
     }
   ],
   "search.exclude": {
