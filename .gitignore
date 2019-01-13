@@ -37,6 +37,7 @@ evolution/
 etcher-electron/
 filezilla/
 fish/fishd.*
+fish/fish_variables
 fish/completions/fisher.fish
 fish/conf.d/local.fish
 fontforge/
