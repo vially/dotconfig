@@ -45,9 +45,13 @@
   "window.zoomLevel": 0,
   "editor.minimap.enabled": true,
   "git.enableSmartCommit": true,
+  "go.useLanguageServer": true,
   "files.insertFinalNewline": true,
   "editor.formatOnSave": true,
   "[html]": {
+    "editor.formatOnSave": false
+  },
+  "[yaml]": {
     "editor.formatOnSave": false
   },
   "prettier.singleQuote": true,
@@ -69,5 +73,6 @@
   },
   "explorer.confirmDelete": false,
   "gitlens.views.fileHistory.enabled": true,
-  "gitlens.views.lineHistory.enabled": true
+  "gitlens.views.lineHistory.enabled": true,
+  "typescript.updateImportsOnFileMove.enabled": "always"
 }
