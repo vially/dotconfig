@@ -179,6 +179,7 @@ new_window none
 new_float none
 for_window [title="gruncher"] floating enable
 workspace_auto_back_and_forth yes
+workspace_layout tabbed
 bindsym $mod+z workspace back_and_forth
 bindsym $mod+Shift+i [class="chromium"] focus
 bindsym $mod+Shift+m exec i3-input -F 'mark %s' -P 'Mark name: '
@@ -211,6 +212,8 @@ bindsym XF86AudioMute exec --no-startup-id volumectl toggle # mute sound
 
 # bar toggle, hide or show
 bindsym $mod+Shift+b bar mode toggle
+
+bindsym Print exec --no-startup-id flameshot gui
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
