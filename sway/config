@@ -12,14 +12,16 @@
 # Logo key. Use Mod1 for Alt.
 set $mod Mod4
 # Your preferred terminal emulator
-set $term termite
+set $term alacritty
 # Your preferred application launcher
-set $menu dmenu_run
+set $menu rofi -show run
+
+font pango:Pragmata Pro 22
 
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/sway/)
-output * bg /usr/share/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+output * bg /usr/local/share/wallpapers/material.jpg fill
 #
 # Example output configuration:
 #
@@ -38,7 +40,7 @@ output * bg /usr/share/sway/Sway_Wallpaper_Blue_1920x1080.png fill
     bindsym $mod+Shift+c kill
 
     # start your launcher
-    bindsym $mod+d exec $menu
+    bindsym $mod+p exec $menu
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
@@ -147,13 +149,17 @@ output * bg /usr/share/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 #
 bar {
     mode hide
-    position top
     colors {
         statusline #ffffff
-        background #323232
-        inactive_workspace #32323200 #32323200 #5c5c5c
+        background #212121
+        active_workspace #F06292 #F06292 #FFFFFF
+        focused_workspace #E91E63 #E91E63 #FFFFFF
+        inactive_workspace #424242 #424242 #FFFFFF
     }
+    status_command swaystatus
+    font pango:Pragmata Pro 22
 }
+
 # Read sway-bar(5) for more information about this section.
 
 # You may want this:
@@ -168,28 +174,16 @@ bar {
 new_window none
 new_float none
 workspace_auto_back_and_forth yes
+workspace_layout tabbed
 bindsym $mod+z workspace back_and_forth
 bindsym $mod+Shift+i [class="chromium"] focus
+
+# Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id volumectl up
 bindsym XF86AudioLowerVolume exec --no-startup-id volumectl down
 bindsym XF86AudioMute exec --no-startup-id volumectl toggle
 
-# https://github.com/ValveSoftware/steam-for-linux/issues/1040
-for_window [class="^Steam$" title="^Friends$"] floating enable
-for_window [class="^Steam$" title="Steam - News"] floating enable
-for_window [class="^Steam$" title=".* - Chat"] floating enable
-for_window [class="^Steam$" title="^Settings$"] floating enable
-for_window [class="^Steam$" title=".* - event started"] floating enable
-for_window [class="^Steam$" title=".* CD key"] floating enable
-for_window [class="^Steam$" title="^Steam - Self Updater$"] floating enable
-for_window [class="^Steam$" title="^Screenshot Uploader$"] floating enable
-for_window [class="^Steam$" title="^Steam Guard - Computer Authorization Required$"] floating enable
-for_window [title="^Steam Keyboard$"] floating enable
-
-# Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec --no-startup-id volumectl up #increase sound volume
-bindsym XF86AudioLowerVolume exec --no-startup-id volumectl down #decrease sound volume
-bindsym XF86AudioMute exec --no-startup-id volumectl toggle # mute sound
-
 # bar toggle, hide or show
 bindsym $mod+Shift+b bar mode toggle
+
+include ~/.config/sway/`hostname`.config
