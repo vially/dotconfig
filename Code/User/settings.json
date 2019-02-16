@@ -74,5 +74,6 @@
   "explorer.confirmDelete": false,
   "gitlens.views.fileHistory.enabled": true,
   "gitlens.views.lineHistory.enabled": true,
-  "typescript.updateImportsOnFileMove.enabled": "always"
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "vim.neovimPath": "/usr/bin/nvim"
 }

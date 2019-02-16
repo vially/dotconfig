@@ -10,7 +10,9 @@ Code/Cookies
 Code/Cookies-journal
 Code/GPUCache/
 Code/User/workspaceStorage/
+Code/User/globalStorage
 Code/Local Storage/
+Code/Network Persistent State
 Code/logs/
 Code/Preferences
 Code/storage.json
