@@ -3,13 +3,14 @@
   "vim.useCtrlKeys": true,
   "vim.useSystemClipboard": true,
   "vim.enableNeovim": true,
+  "vim.neovimPath": "/usr/bin/nvim",
   "vim.hlsearch": true,
   "vim.leader": ",",
   "vim.normalModeKeyBindingsNonRecursive": [
     {
       "before": ["<leader>", "t"],
       "after": [],
-      "commands": ["workbench.action.tasks.test"]
+      "commands": ["workbench.action.tasks.runTask"]
     },
     {
       "before": ["<leader>", "b"],
@@ -46,6 +47,10 @@
   "editor.minimap.enabled": true,
   "git.enableSmartCommit": true,
   "go.useLanguageServer": true,
+  "go.alternateTools": {
+    "go-langserver": "bingo"
+  },
+  "go.languageServerFlags": ["--format-style", "goimports"],
   "files.insertFinalNewline": true,
   "editor.formatOnSave": true,
   "[html]": {
@@ -75,5 +80,8 @@
   "gitlens.views.fileHistory.enabled": true,
   "gitlens.views.lineHistory.enabled": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "vim.neovimPath": "/usr/bin/nvim"
+  "breadcrumbs.enabled": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "window.titleBarStyle": "custom"
 }
