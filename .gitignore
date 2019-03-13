@@ -9,12 +9,14 @@ Code/CachedData/
 Code/Cookies
 Code/Cookies-journal
 Code/GPUCache/
+Code/User/globalStorage/
 Code/User/workspaceStorage/
 Code/User/globalStorage
 Code/Local Storage/
 Code/Network Persistent State
 Code/logs/
 Code/Preferences
+Code/rapid_render.json
 Code/storage.json
 Code/machineid
 Electron/
