@@ -14,7 +14,7 @@ set $mod Mod4
 # Your preferred terminal emulator
 set $term alacritty
 # Your preferred application launcher
-set $menu rofi -show run
+set $menu albert toggle
 
 font pango:Pragmata Pro 22
 
@@ -177,6 +177,7 @@ workspace_auto_back_and_forth yes
 workspace_layout tabbed
 bindsym $mod+z workspace back_and_forth
 bindsym $mod+Shift+i [class="chromium"] focus
+exec env QT_QPA_PLATFORM="xcb" albert
 
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id volumectl up
