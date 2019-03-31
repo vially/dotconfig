@@ -1,0 +1,11 @@
+[Unit]
+Description=A fast and flexible keyboard launcher
+PartOf=graphical-session.target
+
+[Service]
+Type=simple
+Environment=QT_QPA_PLATFORM=xcb
+ExecStart=/usr/bin/albert
+
+[Install]
+WantedBy=sway-session.target
