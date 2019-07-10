@@ -18,10 +18,6 @@ set $menu albert toggle
 
 font pango:Pragmata Pro 22
 
-### Output configuration
-#
-# Default wallpaper (more resolutions are available in /usr/share/sway/)
-output * bg /usr/local/share/wallpapers/material.jpg fill
 #
 # Example output configuration:
 #
@@ -111,8 +107,8 @@ output * bg /usr/local/share/wallpapers/material.jpg fill
     # You can "split" the current object of your focus with
     # $mod+s or $mod+v, for horizontal and vertical splits
     # respectively.
-    bindsym $mod+b splith
-    bindsym $mod+v splitv
+    bindsym $mod+n splith
+    bindsym $mod+m splitv
 
     # Switch the current container between different layout styles
     bindsym $mod+s layout stacking
@@ -178,6 +174,15 @@ workspace_layout tabbed
 hide_edge_borders --i3 none
 bindsym $mod+z workspace back_and_forth
 bindsym $mod+Shift+i [class="chromium"] focus
+
+# move applications to specific workspaces
+for_window [class="Code"] move --no-auto-back-and-forth container to workspace 3
+for_window [class="Slack"] move --no-auto-back-and-forth container to workspace 10
+for_window [class="TelegramDesktop"] move --no-auto-back-and-forth container to workspace 10
+for_window [class="Flutter Desktop Example"] floating enable
+for_window [class="dota2"] move --no-auto-back-and-forth container to workspace 3
+for_window [class="Steam"] move --no-auto-back-and-forth container to workspace 3
+for_window [app_id="flutter_wayland_embedder"] floating enable
 
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id volumectl up
