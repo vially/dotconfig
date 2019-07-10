@@ -30,12 +30,14 @@ aws/
 ayr/
 burp/
 calibre/
+cef_user_data/
 chromium/
 configstore/
 dconf/
 direnv/
 discord/
 discordcanary/
+dlv/
 DUI/
 evolution/
 etcher-electron/
