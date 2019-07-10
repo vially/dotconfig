@@ -48,9 +48,23 @@
   "git.enableSmartCommit": true,
   "go.useLanguageServer": true,
   "go.alternateTools": {
-    "go-langserver": "bingo"
+    "go-langserver": "gopls"
   },
-  "go.languageServerFlags": ["--format-style", "goimports"],
+  "go.languageServerExperimentalFeatures": {
+    "format": true,
+    "autoComplete": true
+  },
+  "[go]": {
+    "editor.snippetSuggestions": "none",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "gopls": {
+    "usePlaceholders": true,
+    "enhancedHover": true
+  },
   "files.insertFinalNewline": true,
   "editor.formatOnSave": true,
   "[html]": {
