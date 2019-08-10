@@ -1,7 +1,7 @@
 [Default Applications]
 text/html=chromium.desktop
 text/plain=visual-studio-code.desktop
-application/pdf=evince.desktop
+application/pdf=org.gnome.Evince.desktop
 application/x-bittorrent=transmission-gtk.desktop
 image/png=sxiv.desktop
 image/jpg=sxiv.desktop
