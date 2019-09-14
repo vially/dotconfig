@@ -1,0 +1,10 @@
+add_newline = false
+
+[line_break]
+disabled = true
+
+[golang]
+disabled = true
+
+[character]
+symbol = "❯"
