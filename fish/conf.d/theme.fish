@@ -1,0 +1,14 @@
+# source: https://github.com/david50407/Tomorrow-Night-Bright-Fish/blob/master/Tomorrow-Night-Bright.fish
+set fish_color_normal A1B0B8
+set fish_color_command 42A5F5
+set fish_color_quote e78c45
+set fish_color_redirection c397d8
+set fish_color_end c397d8
+set fish_color_error FF443E
+set fish_color_param ffffff
+set fish_color_comment 999999
+set fish_color_match 70c0b1
+set fish_color_search_match c397d8
+set fish_color_operator D81B60
+set fish_color_escape 70c0b1
+set fish_color_cwd b9ca4a
