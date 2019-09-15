@@ -4,3 +4,4 @@ XKB_DEFAULT_OPTIONS=ctrl:swapcaps
 BROWSER=chromium
 EDITOR=nvim
 TERMINAL=alacritty
+SSH_AUTH_SOCK   DEFAULT="${XDG_RUNTIME_DIR}/ssh-agent.socket"
