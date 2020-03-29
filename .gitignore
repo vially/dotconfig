@@ -3,6 +3,7 @@ albert/last_used_version
 Atom/
 Atom-Shell/
 Code/Backups/
+Code/Code Cache/
 Code/Cache/
 Code/CachedExtensions/
 Code/CachedData/
@@ -17,7 +18,9 @@ Code/Network Persistent State
 Code/logs/
 Code/Preferences
 Code/rapid_render.json
+Code/Session Storage/
 Code/storage.json
+Code/TransportSecurity
 Code/machineid
 Electron/
 Epic/
