@@ -1,7 +1,6 @@
 [user]
     name = Valentin Hăloiu
-    email = vially.ichb@gmail.com
-    signingKey = 8A41CB73
+    email = valentin.haloiu@gmail.com
 [alias]
     a = add
     c = commit
@@ -17,7 +16,7 @@
     pager = diff-so-fancy | less --tabs=4 -RFX
     excludesFile = ~/.config/git/gitignore
 [commit]
-    gpgSign = true
+    gpgSign = false
 [diff]
     compactionHeuristic = true
     indentHeuristic = true
