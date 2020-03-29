@@ -179,5 +179,6 @@
       "name": "Vue Green",
       "value": "#42b883"
     }
-  ]
+  ],
+  "ghcloner.defaultCloneDirectory": "~/code"
 }
