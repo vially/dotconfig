@@ -208,6 +208,7 @@ bindsym XF86AudioPrev exec playerctl previous
 # bar toggle, hide or show
 bindsym $mod+Shift+b bar mode toggle
 
+include ~/.config/sway/input.config
 include ~/.config/sway/`hostname`.config
 
 # idle and lock config
