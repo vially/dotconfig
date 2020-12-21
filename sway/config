@@ -210,6 +210,13 @@ bindsym $mod+Shift+b bar mode toggle
 
 include ~/.config/sway/`hostname`.config
 
+# idle and lock config
+exec swayidle -w \
+          timeout 900 'swaylock -f --image ~/.local/share/wallpapers/default.jpg' \
+          timeout 1200 'swaymsg "output * dpms off"' \
+               resume 'swaymsg "output * dpms on"' \
+          before-sleep 'swaylock -f --image ~/.local/share/wallpapers/default.jpg'
+
 # start systemd user sway-session
 exec systemctl --user import-environment
 exec systemctl --user start sway-session.target
