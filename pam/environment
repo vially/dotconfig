@@ -5,5 +5,7 @@ BROWSER=chromium
 EDITOR=nvim
 TERMINAL=alacritty
 _JAVA_AWT_WM_NONREPARENTING=1
+XDG_CURRENT_DESKTOP=sway
 PATH    DEFAULT=@{HOME}/.local/bin:/usr/local/bin:/usr/bin
 SSH_AUTH_SOCK   DEFAULT="${XDG_RUNTIME_DIR}/ssh-agent.socket"
+QT_AUTO_SCREEN_SCALE_FACTOR=1
