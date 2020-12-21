@@ -6,13 +6,17 @@ Code/Backups/
 Code/Code Cache/
 Code/Cache/
 Code/CachedExtensions/
+Code/CachedExtensionVSIXs/
 Code/CachedData/
 Code/Cookies
 Code/Cookies-journal
+Code/Crash Reports/
+Code/exthost Crash Reports/
 Code/GPUCache/
 Code/User/globalStorage/
 Code/User/workspaceStorage/
 Code/User/globalStorage
+Code/User/sync/
 Code/Local Storage/
 Code/Network Persistent State
 Code/logs/
@@ -22,8 +26,37 @@ Code/Session Storage/
 Code/storage.json
 Code/TransportSecurity
 Code/machineid
+Code - OSS/Backups/
+Code - OSS/Cache/
+Code - OSS/Code Cache/
+Code - OSS/Cookies
+Code - OSS/Cookies-journal
+Code - OSS/CachedData/
+Code - OSS/CachedExtensions/
+Code - OSS/CachedExtensionVSIXs/
+Code - OSS/Crash Reports/
+Code - OSS/exthost Crash Reports/
+Code - OSS/Dictionaries/
+Code - OSS/GPUCache/
+Code - OSS/Local Storage/
+Code - OSS/Session Storage/
+Code - OSS/User/globalStorage/
+Code - OSS/User/workspaceStorage/
+Code - OSS/User/globalStorage
+Code - OSS/logs/
+Code - OSS/languagepacks.json
+Code - OSS/Network Persistent State
+Code - OSS/Preferences
+Code - OSS/rapid_render.json
+Code - OSS/Session Storage/
+Code - OSS/storage.json
+Code - OSS/TransportSecurity
+Code - OSS/machineid
+Code - OSS/.org.chromium.Chromium.*
+code-oss-dev/
 Electron/
 Epic/
+Google/AndroidStudio*/
 GIMP/
 Hyper/
 albert/core.db
@@ -31,6 +64,7 @@ albert/last_used_version
 albert/org.albert.extension.kvstore/
 aws/
 ayr/
+bottom/
 burp/
 calibre/
 cef_user_data/
@@ -43,7 +77,7 @@ discordcanary/
 dlv/
 DUI/
 evolution/
-etcher-electron/
+balena-etcher-electron/
 filezilla/
 fish/fishd.*
 fish/fish_variables
@@ -54,11 +88,15 @@ gcloud/
 gconf/
 geeqie/
 git/config.local
+google-chrome-beta/
+google-chrome-unstable/
+gopass/
 gpick/
 gpicview/
 gtk-2.0/
 gtk-3.0/bookmarks
 gnupg/
+helm/
 hotkeys/
 htop/
 ImageMagick/
@@ -73,10 +111,13 @@ nemo/
 nightmare/
 opera/
 pavucontrol-qt/
+pipewire-media-session/
 pcmanfm/
+pcmanfm-qt/
 pulse/
 ranger/
 rds/
+spotify/
 Skype/
 skypeforlinux/
 Slack/
