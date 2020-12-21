@@ -12,6 +12,7 @@
     d = diff
     dc = diff --cached
     lol = log --graph --decorate --pretty=oneline --abbrev-commit --all
+    los = log --graph --decorate --pretty=oneline --abbrev-commit
 [core]
     pager = diff-so-fancy | less --tabs=4 -RFX
     excludesFile = ~/.config/git/gitignore
@@ -32,3 +33,5 @@
     path = config.local
 [credential]
 	helper = cache
+[pull]
+	ff = only
