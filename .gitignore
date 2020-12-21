@@ -127,6 +127,7 @@ systemd/user/*.service
 systemd/user/*.socket
 sublime-text-3/
 supertuxkart/
+sway/local.config
 Thunar/
 teamviewer10/
 tint2/
