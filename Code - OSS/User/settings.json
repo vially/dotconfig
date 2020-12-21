@@ -31,6 +31,16 @@
       "before": ["<leader>", "l"],
       "after": [],
       "commands": ["references-view.find"]
+    },
+    {
+      "before": ["<leader>", "w"],
+      "after": [],
+      "commands": ["workbench.action.showAllSymbols"]
+    },
+    {
+      "before": ["<leader>", "d"],
+      "after": [],
+      "commands": ["workbench.action.gotoSymbol"]
     }
   ],
   "search.exclude": {
@@ -42,7 +52,6 @@
   "editor.cursorStyle": "block",
   "editor.cursorBlinking": "blink",
   "editor.wordWrap": "off",
-  "window.zoomLevel": 0,
   "workbench.iconTheme": "material-icon-theme",
   "editor.minimap.enabled": true,
   "git.enableSmartCommit": true,
@@ -66,7 +75,7 @@
   },
   "files.insertFinalNewline": true,
   "[html]": {
-    "editor.formatOnSave": false,
+    "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[yaml]": {
@@ -176,5 +185,14 @@
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": false
   },
-  "terminal.external.linuxExec": "alacritty"
+  "terminal.external.linuxExec": "alacritty",
+  "[cpp]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "mdb.confirmRunAll": false,
+  "rust-analyzer.inlayHints.typeHints": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": 0
 }
