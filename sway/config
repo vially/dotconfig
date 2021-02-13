@@ -208,6 +208,7 @@ bindsym XF86AudioPrev exec playerctl previous
 # bar toggle, hide or show
 bindsym $mod+Shift+b bar mode toggle
 
+include ~/.config/sway/systemd.config
 include ~/.config/sway/input.config
 include ~/.config/sway/`hostname`.config
 include ~/.config/sway/local.config
@@ -218,7 +219,3 @@ exec swayidle -w \
           timeout 1200 'swaymsg "output * dpms off"' \
                resume 'swaymsg "output * dpms on"' \
           before-sleep 'swaylock -f --image ~/.local/share/wallpapers/default.jpg'
-
-# start systemd user sway-session
-exec systemctl --user import-environment
-exec systemctl --user start sway-session.target
