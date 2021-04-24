@@ -59,10 +59,6 @@
   "go.alternateTools": {
     "go-langserver": "gopls"
   },
-  "go.languageServerExperimentalFeatures": {
-    "format": true,
-    "autoComplete": true
-  },
   "[go]": {
     "editor.snippetSuggestions": "none",
     "editor.formatOnSave": true,
@@ -89,16 +85,13 @@
     "suppressFileNotUnderSourceControlWarning": false,
     "suppressGitVersionWarning": false,
     "suppressLineUncommittedWarning": false,
-    "suppressNoRepositoryWarning": false,
-    "suppressResultsExplorerNotice": false,
-    "suppressShowKeyBindingsNotice": true
+    "suppressNoRepositoryWarning": false
   },
   "editor.codeActionsOnSave": {
     "source.organizeImports": true
   },
   "explorer.confirmDelete": false,
   "gitlens.views.fileHistory.enabled": true,
-  "gitlens.views.lineHistory.enabled": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "breadcrumbs.enabled": true,
   "editor.suggestSelection": "first",
@@ -186,13 +179,11 @@
     "editor.wordBasedSuggestions": false
   },
   "terminal.external.linuxExec": "alacritty",
-  "[cpp]": {
-    "editor.defaultFormatter": "xaver.clang-format"
-  },
   "mdb.confirmRunAll": false,
   "rust-analyzer.inlayHints.typeHints": false,
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "window.zoomLevel": 0
+  "angular.experimental-ivy": true,
+  "projectManager.git.baseFolders": ["~/code"]
 }
