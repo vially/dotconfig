@@ -52,6 +52,10 @@ Code - OSS/Session Storage/
 Code - OSS/storage.json
 Code - OSS/TransportSecurity
 Code - OSS/machineid
+Code - OSS/IndexedDB/
+Code - OSS/QuotaManager
+Code - OSS/QuotaManager-journal
+Code - OSS/databases/
 Code - OSS/.org.chromium.Chromium.*
 code-oss-dev/
 Electron/
@@ -83,11 +87,13 @@ fish/fishd.*
 fish/fish_variables
 fish/completions/fisher.fish
 fish/conf.d/local.fish
+flutter/
 fontforge/
 gcloud/
 gconf/
 geeqie/
 git/config.local
+google-chrome/
 google-chrome-beta/
 google-chrome-unstable/
 gopass/
@@ -108,6 +114,7 @@ mc/
 menus/
 mono.addins/
 nemo/
+netlify/
 nightmare/
 opera/
 pavucontrol-qt/
@@ -115,6 +122,7 @@ pipewire-media-session/
 pcmanfm/
 pcmanfm-qt/
 pulse/
+pipewire/
 ranger/
 rds/
 spotify/
