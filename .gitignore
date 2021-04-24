@@ -81,6 +81,7 @@ discordcanary/
 dlv/
 DUI/
 evolution/
+environment.d/local.conf
 balena-etcher-electron/
 filezilla/
 fish/fishd.*
