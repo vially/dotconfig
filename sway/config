@@ -186,6 +186,7 @@ for_window [app_id="flutter_wayland_embedder"] floating enable
 for_window [app_id="flutter-rust-desktop"] move --no-auto-back-and-forth container to workspace 9
 for_window [app_id="code-oss-dev"] move --no-auto-back-and-forth container to workspace 2
 for_window [app_id="code-oss"] move --no-auto-back-and-forth container to workspace 3
+for_window [app_id="Code"] move --no-auto-back-and-forth container to workspace 3
 for_window [app_id="electron-quick-start"] move --no-auto-back-and-forth container to workspace 2
 for_window [app_id="Electron"] move --no-auto-back-and-forth container to workspace 2
 for_window [app_id="chromium" title="Open File"] floating enable
