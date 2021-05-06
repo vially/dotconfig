@@ -185,5 +185,8 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "angular.experimental-ivy": true,
-  "projectManager.git.baseFolders": ["~/code"]
+  "projectManager.git.baseFolders": [
+    "~/code"
+  ],
+  "go.toolsManagement.autoUpdate": true
 }

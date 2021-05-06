@@ -3,5 +3,13 @@
   {
     "key": "f17",
     "command": "workbench.action.togglePanel"
+  },
+  {
+    "key": "shift+alt+p",
+    "command": "-projectManager.listProjects"
+  },
+  {
+    "key": "shift+alt+p",
+    "command": "projectManager.listProjectsNewWindow"
   }
 ]

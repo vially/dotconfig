@@ -1,13 +1,17 @@
 // Place your key bindings in this file to overwrite the defaults
 [
-    {
-        "key": "ctrl+shift+alt+r",
-        "command": "workbench.action.tasks.test",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "alt+o",
-        "command": "go.toggle.test.file",
-        "when": "editorTextFocus && editorLangId == 'go'"
-    }
+  {
+    "key": "ctrl+shift+alt+r",
+    "command": "workbench.action.tasks.test",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+o",
+    "command": "go.toggle.test.file",
+    "when": "editorTextFocus && editorLangId == 'go'"
+  },
+  {
+    "key": "shift+alt+s",
+    "command": "workbench.action.files.saveAll"
+  }
 ]

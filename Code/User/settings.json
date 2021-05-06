@@ -176,5 +176,9 @@
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": false
   },
-  "terminal.external.linuxExec": "alacritty"
+  "terminal.external.linuxExec": "alacritty",
+  "angular.experimental-ivy": true,
+  "projectManager.git.baseFolders": [
+    "~/code"
+  ]
 }
