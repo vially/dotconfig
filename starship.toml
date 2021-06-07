@@ -8,6 +8,3 @@ disabled = true
 
 [golang]
 disabled = true
-
-[character]
-symbol = "❯"
