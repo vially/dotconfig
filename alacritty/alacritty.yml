@@ -214,10 +214,6 @@ mouse:
   # To disable this completely, set `faux_scrollback_lines` to 0.
   faux_scrolling_lines: 1
 
-  url:
-    launcher: xdg-open
-    modifiers: Control
-
 selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>"
 
