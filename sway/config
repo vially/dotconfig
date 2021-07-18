@@ -177,7 +177,8 @@ bindsym $mod+Shift+i [class="chromium"] focus
 
 # move applications to specific workspaces
 for_window [class="Code"] move --no-auto-back-and-forth container to workspace 3
-for_window [class="Slack"] move --no-auto-back-and-forth container to workspace 10
+for_window [app_id="Slack"] move --no-auto-back-and-forth container to workspace 10
+for_window [app_id="playground"] move --no-auto-back-and-forth container to workspace 9
 for_window [class="TelegramDesktop"] move --no-auto-back-and-forth container to workspace 10
 for_window [class="Flutter Desktop Example"] floating enable
 for_window [class="dota2"] move --no-auto-back-and-forth container to workspace 3
