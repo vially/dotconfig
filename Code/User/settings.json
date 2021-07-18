@@ -66,7 +66,6 @@
   },
   "files.insertFinalNewline": true,
   "[html]": {
-    "editor.formatOnSave": false,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[yaml]": {
@@ -178,7 +177,9 @@
   },
   "terminal.external.linuxExec": "alacritty",
   "angular.experimental-ivy": true,
-  "projectManager.git.baseFolders": [
-    "~/code"
-  ]
+  "projectManager.git.baseFolders": ["~/code"],
+  "workbench.startupEditor": "none",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
