@@ -5,14 +5,18 @@ Atom-Shell/
 Code/Backups/
 Code/Code Cache/
 Code/Cache/
+Code/CachedConfigurations/
 Code/CachedExtensions/
 Code/CachedExtensionVSIXs/
 Code/CachedData/
 Code/Cookies
 Code/Cookies-journal
 Code/Crash Reports/
+Code/databases/
 Code/exthost Crash Reports/
 Code/GPUCache/
+Code/QuotaManager
+Code/QuotaManager-journal
 Code/User/globalStorage/
 Code/User/workspaceStorage/
 Code/User/globalStorage
@@ -22,6 +26,7 @@ Code/Network Persistent State
 Code/logs/
 Code/Preferences
 Code/rapid_render.json
+Code/Service Worker/
 Code/Session Storage/
 Code/storage.json
 Code/TransportSecurity
@@ -94,6 +99,7 @@ gcloud/
 gconf/
 geeqie/
 git/config.local
+git/gitk
 google-chrome/
 google-chrome-beta/
 google-chrome-unstable/
@@ -107,13 +113,16 @@ helm/
 hotkeys/
 htop/
 ImageMagick/
+inkdrop/
 inkscape/
+ksnip/
 libfm/
 libreoffice/
 massren/
 mc/
 menus/
 mono.addins/
+nautilus/
 nemo/
 netlify/
 nightmare/
@@ -135,6 +144,7 @@ systemd/user/*.wants/
 systemd/user/*.service
 systemd/user/*.socket
 sublime-text-3/
+sublime-merge/
 supertuxkart/
 sway/local.config
 Thunar/
