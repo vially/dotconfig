@@ -7,7 +7,7 @@ call plug#begin('~/.local/share/nvim/plugged')
 Plug 'bling/vim-airline'
 Plug 'bling/vim-bufferline'
 Plug 'burnettk/vim-angular'
-Plug 'chriskempson/base16-vim'
+Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'Glench/Vim-Jinja2-Syntax'
 Plug 'kien/ctrlp.vim'
 Plug 'Lokaltog/vim-easymotion'
@@ -38,8 +38,9 @@ nmap <silent> <leader>sv :so $MYVIMRC<CR>
 
 " Theme settings
 syntax enable
+set termguicolors
 set background=dark
-colorscheme base16-tomorrow
+colorscheme dracula
 
 " Airline
 let g:airline_powerline_fonts = 1   " enable fancy symbols (requires patched font)
