@@ -1,7 +1,7 @@
 GOPATH DEFAULT=@{HOME}/.local/share/go
 XKB_DEFAULT_LAYOUT=ro
 XKB_DEFAULT_OPTIONS=ctrl:swapcaps
-BROWSER=google-chrome-stable
+BROWSER=chromium
 EDITOR=nvim
 TERMINAL=alacritty
 _JAVA_AWT_WM_NONREPARENTING=1
