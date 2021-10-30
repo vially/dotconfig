@@ -1,7 +1,9 @@
 albert/org.albert.extension.snippets/snippets.db
 albert/last_used_version
+Android Open Source Project/
 Atom/
 Atom-Shell/
+Code/code.lock
 Code/Backups/
 Code/Code Cache/
 Code/Cache/
@@ -115,6 +117,7 @@ htop/
 ImageMagick/
 inkdrop/
 inkscape/
+insomnia-app/
 ksnip/
 libfm/
 libreoffice/
@@ -167,8 +170,11 @@ yay/
 Zeal/
 Insomnia/
 composer/
+capacitor/
+neofetch/
 redisdesktop/
 wireshark/
+chromium-flags.conf
 emaildefaults
 gh
 gh-update
