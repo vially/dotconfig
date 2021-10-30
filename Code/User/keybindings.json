@@ -13,5 +13,10 @@
   {
     "key": "shift+alt+s",
     "command": "workbench.action.files.saveAll"
+  },
+  {
+    "key": "escape",
+    "command": "workbench.action.closePanel",
+    "when": "panelFocus && panelVisible"
   }
 ]

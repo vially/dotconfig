@@ -6,31 +6,49 @@
   "vim.neovimPath": "/usr/bin/nvim",
   "vim.hlsearch": true,
   "vim.leader": ",",
+  "vim.handleKeys": {
+    "<C-j>": false
+  },
   "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "before": ["<leader>", "t"],
+      "before": [
+        "<leader>",
+        "t"
+      ],
       "after": [],
-      "commands": ["workbench.action.tasks.runTask"]
+      "commands": [
+        "workbench.action.tasks.runTask"
+      ]
     },
     {
-      "before": ["<leader>", "b"],
+      "before": [
+        "<leader>",
+        "b"
+      ],
       "after": [],
-      "commands": ["workbench.action.tasks.build"]
+      "commands": [
+        "workbench.action.tasks.build"
+      ]
     },
     {
-      "before": ["<leader>", "r"],
+      "before": [
+        "<leader>",
+        "r"
+      ],
       "after": [],
-      "commands": ["workbench.action.tasks.reRunTask"]
+      "commands": [
+        "workbench.action.tasks.reRunTask"
+      ]
     },
     {
-      "before": ["<leader>", "q"],
+      "before": [
+        "<leader>",
+        "l"
+      ],
       "after": [],
-      "commands": ["workbench.action.togglePanel"]
-    },
-    {
-      "before": ["<leader>", "l"],
-      "after": [],
-      "commands": ["references-view.find"]
+      "commands": [
+        "references-view.find"
+      ]
     }
   ],
   "search.exclude": {
@@ -157,7 +175,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
   "editor.formatOnSave": true,
   "[javascript]": {
@@ -168,7 +186,9 @@
   "[dart]": {
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
-    "editor.rulers": [80],
+    "editor.rulers": [
+      80
+    ],
     "editor.selectionHighlight": false,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.suggestSelection": "first",
@@ -177,9 +197,25 @@
   },
   "terminal.external.linuxExec": "alacritty",
   "angular.experimental-ivy": true,
-  "projectManager.git.baseFolders": ["~/code"],
+  "projectManager.git.baseFolders": [
+    "~/code"
+  ],
   "workbench.startupEditor": "none",
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "dart.debugExternalLibraries": true,
+  "dart.debugSdkLibraries": true,
+  "debug.onTaskErrors": "showErrors",
+  "cmake.configureOnOpen": true,
+  "editor.bracketPairColorization.enabled": true,
+  "gitlens.views.commits.files.layout": "list",
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "javascript.inlayHints.variableTypes.enabled": true,
+  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "javascript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.parameterTypes.enabled": true
 }
