@@ -1,22 +1,27 @@
 // Place your key bindings in this file to overwrite the defaults
 [
-  {
-    "key": "ctrl+shift+alt+r",
-    "command": "workbench.action.tasks.test",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "alt+o",
-    "command": "go.toggle.test.file",
-    "when": "editorTextFocus && editorLangId == 'go'"
-  },
-  {
-    "key": "shift+alt+s",
-    "command": "workbench.action.files.saveAll"
-  },
-  {
-    "key": "escape",
-    "command": "workbench.action.closePanel",
-    "when": "panelFocus && panelVisible"
-  }
+    {
+        "key": "ctrl+shift+alt+r",
+        "command": "workbench.action.tasks.test",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+o",
+        "command": "go.toggle.test.file",
+        "when": "editorTextFocus && editorLangId == 'go'"
+    },
+    {
+        "key": "shift+alt+s",
+        "command": "workbench.action.files.saveAll"
+    },
+    {
+        "key": "escape",
+        "command": "workbench.action.closePanel",
+        "when": "panelFocus && panelVisible"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "-extension.vim_navigateCtrlL",
+        "when": "editorTextFocus && vim.active && vim.use<C-l> && !inDebugRepl"
+    }
 ]

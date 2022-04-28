@@ -11,44 +11,24 @@
   },
   "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "before": [
-        "<leader>",
-        "t"
-      ],
+      "before": ["<leader>", "t"],
       "after": [],
-      "commands": [
-        "workbench.action.tasks.runTask"
-      ]
+      "commands": ["workbench.action.tasks.runTask"]
     },
     {
-      "before": [
-        "<leader>",
-        "b"
-      ],
+      "before": ["<leader>", "b"],
       "after": [],
-      "commands": [
-        "workbench.action.tasks.build"
-      ]
+      "commands": ["workbench.action.tasks.build"]
     },
     {
-      "before": [
-        "<leader>",
-        "r"
-      ],
+      "before": ["<leader>", "r"],
       "after": [],
-      "commands": [
-        "workbench.action.tasks.reRunTask"
-      ]
+      "commands": ["workbench.action.tasks.reRunTask"]
     },
     {
-      "before": [
-        "<leader>",
-        "l"
-      ],
+      "before": ["<leader>", "l"],
       "after": [],
-      "commands": [
-        "references-view.find"
-      ]
+      "commands": ["references-view.find"]
     }
   ],
   "search.exclude": {
@@ -84,12 +64,11 @@
   },
   "files.insertFinalNewline": true,
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.html-language-features"
   },
   "[yaml]": {
     "editor.formatOnSave": false
   },
-  "gitlens.currentLine.enabled": false,
   "gitlens.hovers.currentLine.over": "line",
   "gitlens.advanced.messages": {
     "suppressCommitHasNoPreviousCommitWarning": false,
@@ -175,20 +154,18 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.formatOnSave": true,
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "prettier.singleQuote": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "[dart]": {
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
-    "editor.rulers": [
-      80
-    ],
+    "editor.rulers": [80],
     "editor.selectionHighlight": false,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.suggestSelection": "first",
@@ -197,9 +174,7 @@
   },
   "terminal.external.linuxExec": "alacritty",
   "angular.experimental-ivy": true,
-  "projectManager.git.baseFolders": [
-    "~/code"
-  ],
+  "projectManager.git.baseFolders": ["~/code"],
   "workbench.startupEditor": "none",
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -217,5 +192,9 @@
   "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
   "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
   "javascript.inlayHints.parameterTypes.enabled": true,
-  "typescript.inlayHints.parameterTypes.enabled": true
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "mesonbuild.configureOnOpen": true,
+  "redhat.telemetry.enabled": true,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.integrations.enabled": false
 }
