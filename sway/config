@@ -144,16 +144,8 @@ font pango:Pragmata Pro 12
 # Status Bar:
 #
 bar {
+    swaybar_command waybar
     mode hide
-    colors {
-        statusline #ffffff
-        background #212121
-        active_workspace #F06292 #F06292 #FFFFFF
-        focused_workspace #E91E63 #E91E63 #FFFFFF
-        inactive_workspace #424242 #424242 #FFFFFF
-    }
-    status_command swaystatus
-    font pango:Pragmata Pro 12
 }
 
 # Read sway-bar(5) for more information about this section.
@@ -178,18 +170,23 @@ bindsym $mod+Shift+i [class="chromium"] focus
 # move applications to specific workspaces
 for_window [class="Code"] move --no-auto-back-and-forth container to workspace 3
 for_window [app_id="Slack"] move --no-auto-back-and-forth container to workspace 10
-for_window [app_id="playground"] move --no-auto-back-and-forth container to workspace 9
+for_window [app_id="playground"] move --no-auto-back-and-forth container to workspace 2
 for_window [class="TelegramDesktop"] move --no-auto-back-and-forth container to workspace 10
 for_window [class="Flutter Desktop Example"] floating enable
+for_window [class="hearthstone.exe"] floating enable
+for_window [class="dota2"] floating enable
 for_window [class="dota2"] move --no-auto-back-and-forth container to workspace 3
 for_window [class="Steam"] move --no-auto-back-and-forth container to workspace 3
+for_window [app_id="dota2"] floating enable
+for_window [app_id="dota2"] move --no-auto-back-and-forth container to workspace 3
 for_window [app_id="flutter_wayland_embedder"] floating enable
-for_window [app_id="flutter-rust-desktop"] move --no-auto-back-and-forth container to workspace 9
+for_window [app_id="flutter-rust-desktop"] move --no-auto-back-and-forth container to workspace 2
 for_window [app_id="code-oss-dev"] move --no-auto-back-and-forth container to workspace 2
 for_window [app_id="code-oss"] move --no-auto-back-and-forth container to workspace 3
 for_window [app_id="Code"] move --no-auto-back-and-forth container to workspace 3
 for_window [app_id="electron-quick-start"] move --no-auto-back-and-forth container to workspace 2
 for_window [app_id="Electron"] move --no-auto-back-and-forth container to workspace 2
+for_window [app_id="pinentry-qt"] floating enable
 for_window [app_id="chromium" title="Open File"] floating enable
 for_window [app_id="chromium" title="Save File"] floating enable
 for_window [app_id="electron" title="Open File"] floating enable
@@ -206,6 +203,12 @@ bindsym XF86AudioMute exec --no-startup-id volumectl toggle
 bindsym XF86AudioPlay exec playerctl play-pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
+
+# Android Emulator
+for_window [title="^Emulator$"] floating enable
+for_window [title="^Emulator$"] move --no-auto-back-and-forth container to workspace 2
+for_window [title="^Android Emulator - .*"] floating enable
+for_window [title="^Android Emulator - .*"] move --no-auto-back-and-forth container to workspace 2
 
 # bar toggle, hide or show
 bindsym $mod+Shift+b bar mode toggle
