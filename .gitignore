@@ -159,7 +159,6 @@ systemd/user/*.socket
 sublime-text-3/
 sublime-merge/
 supertuxkart/
-sway/local.config
 Thunar/
 teamviewer10/
 tint2/
