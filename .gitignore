@@ -4,6 +4,9 @@ Android Open Source Project/
 Atom/
 Atom-Shell/
 Code/code.lock
+Code/fileWatcher/
+Code/watcherServiceParcelSharedProcess/
+Code/Crashpad/
 Code/Backups/
 Code/Code Cache/
 Code/Cache/
@@ -33,6 +36,7 @@ Code/Session Storage/
 Code/storage.json
 Code/TransportSecurity
 Code/machineid
+Code/.org.chromium.Chromium.*
 Code - OSS/Backups/
 Code - OSS/Cache/
 Code - OSS/Code Cache/
@@ -70,6 +74,7 @@ Epic/
 Google/AndroidStudio*/
 GIMP/
 Hyper/
+MongoDB Compass/
 albert/core.db
 albert/last_used_version
 albert/org.albert.extension.kvstore/
@@ -77,10 +82,12 @@ aws/
 ayr/
 bottom/
 burp/
+btop/
 calibre/
 cef_user_data/
 chromium/
 configstore/
+cni/net.d/
 dconf/
 direnv/
 discord/
@@ -121,6 +128,7 @@ insomnia-app/
 ksnip/
 libfm/
 libreoffice/
+looking-glass/
 massren/
 mc/
 menus/
@@ -128,7 +136,9 @@ mono.addins/
 nautilus/
 nemo/
 netlify/
+nextjs-nodejs/
 nightmare/
+obs-studio/
 opera/
 pavucontrol-qt/
 pipewire-media-session/
