@@ -1,0 +1,51 @@
+#!/usr/bin/env zx
+
+async function findFocusedWindow() {
+    const { stdout } = await quiet($`swaymsg -t get_tree | jq -r '..|try select(.focused == true)'`)
+    return JSON.parse(stdout)
+}
+
+async function findFocusedWorkspace() {
+    const { stdout } = await quiet($`swaymsg -t get_workspaces | jq '.[] | select(.focused == true)'`)
+    return JSON.parse(stdout)
+}
+
+function getAppSelectorFor(window) {
+    if (window.app_id) {
+        return { key: 'app_id', value: window.app_id }
+    } else if (window.window_properties?.class) {
+        return { key: 'class', value: window.window_properties.class }
+    }
+
+    return null
+}
+
+async function updateAppRulesConfig(appSelector, focusedWorkspaceName) {
+    const assignStatement = `assign [${appSelector.key}="${appSelector.value}"] → ${focusedWorkspaceName}`
+
+    const appsFilePath = path.join(os.homedir(), '.config', 'sway', 'conf.d', 'apps.config')
+    const content = await fs.readFile(appsFilePath, { encoding: 'utf8' })
+    if (content.split('\n').includes(assignStatement)) {
+        console.log('SKIP: Assign statement already exists:', assignStatement)
+    } else {
+        await fs.appendFile(appsFilePath, `${assignStatement}\n`)
+        console.log('Assign statement added to apps config:', assignStatement)
+    }
+    await quiet($`notify-send -t 2000 'Assigned ${appSelector.value} to workspace ${focusedWorkspaceName}'`)
+}
+
+async function main() {
+    // Warning: This is prone to race conditions but it's good enough for now
+    const focusedWindow = await findFocusedWindow()
+    const focusedWorkspace = await findFocusedWorkspace()
+
+    const appSelector = getAppSelectorFor(focusedWindow)
+    if (appSelector) {
+        await updateAppRulesConfig(appSelector, focusedWorkspace.name)
+    } else {
+        console.error('Unable to find a suitable app selector for focused window', focusedWindow)
+        process.exit(1)
+    }
+}
+
+main()
