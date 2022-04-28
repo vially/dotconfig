@@ -1,0 +1,22 @@
+{
+    "id": "bar-0",
+    "ipc": true,
+    "position": "bottom",
+    "modules-left": [
+        "sway/workspaces",
+        "sway/mode"
+    ],
+    "modules-center": [],
+    "modules-right": [
+        "pulseaudio",
+        "memory",
+        "clock#localtime",
+        "tray"
+    ],
+    "clock#localtime": {
+        "format": "{:%Y-%m-%d %H:%M:%S}",
+        "interval": 1,
+        "tooltip": true,
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt>{calendar}</tt>"
+    }
+}
