@@ -35,3 +35,5 @@
 	helper = cache
 [pull]
 	ff = only
+[advice]
+	skippedCherryPicks = false
