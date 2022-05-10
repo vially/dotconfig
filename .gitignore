@@ -23,6 +23,7 @@ Code/GPUCache/
 Code/QuotaManager
 Code/QuotaManager-journal
 Code/User/globalStorage/
+Code/User/History/
 Code/User/workspaceStorage/
 Code/User/globalStorage
 Code/User/sync/

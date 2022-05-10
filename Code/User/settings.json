@@ -196,5 +196,6 @@
   "mesonbuild.configureOnOpen": true,
   "redhat.telemetry.enabled": true,
   "gitlens.currentLine.enabled": false,
-  "gitlens.integrations.enabled": false
+  "gitlens.integrations.enabled": false,
+  "editor.inlayHints.enabled": "onUnlessPressed"
 }
