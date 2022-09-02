@@ -18,6 +18,7 @@ Code/Cookies
 Code/Cookies-journal
 Code/Crash Reports/
 Code/databases/
+Code/Dictionaries/
 Code/exthost Crash Reports/
 Code/GPUCache/
 Code/QuotaManager
@@ -38,6 +39,7 @@ Code/storage.json
 Code/TransportSecurity
 Code/machineid
 Code/.org.chromium.Chromium.*
+Code/WebStorage/
 Code - OSS/Backups/
 Code - OSS/Cache/
 Code - OSS/Code Cache/
