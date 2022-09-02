@@ -1,3 +1,3 @@
 if test (command --search starship)
-    eval (starship init fish)
+    starship init fish | source
 end
