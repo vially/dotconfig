@@ -1,5 +1,5 @@
 function ll --description 'List contents of directory using long format'
-    if test (command --search exa)
+    if type --query exa
         exa -lh $argv
     else
         ls -lh $argv

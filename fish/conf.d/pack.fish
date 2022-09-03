@@ -1,3 +1,3 @@
-if test (command --search pack)
+if type --query pack
     source (pack completion --shell fish)
 end

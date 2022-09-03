@@ -1,3 +1,3 @@
-if test (command --search pyenv)
+if type --query pyenv
     pyenv init - | source
 end
