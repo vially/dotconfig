@@ -7,7 +7,7 @@
     cm = commit -m
     ca = commit -a
     cam = commit -a -m
-    can = commit -a --amend --no-edit
+    can = commit --amend --no-edit
     s = status
     d = diff
     dc = diff --cached
