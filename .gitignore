@@ -1,6 +1,9 @@
 albert/snippets/
 albert/albert.db
 albert.conf
+/argocd/
+/hypr/
+/k9s/
 atlascli/
 Android Open Source Project/
 Atom/
