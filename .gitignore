@@ -1,5 +1,6 @@
-albert/org.albert.extension.snippets/snippets.db
-albert/last_used_version
+albert/snippets/
+albert/albert.db
+albert.conf
 atlascli/
 Android Open Source Project/
 Atom/
