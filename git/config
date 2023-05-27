@@ -14,13 +14,21 @@
     lol = log --graph --decorate --pretty=oneline --abbrev-commit --all
     los = log --graph --decorate --pretty=oneline --abbrev-commit
 [core]
-    pager = diff-so-fancy | less --tabs=4 -RFX
+    pager = delta
     excludesFile = ~/.config/git/gitignore
+[interactive]
+    diffFilter = delta --color-only
 [commit]
     gpgSign = false
+[delta]
+    navigate = true    
+    light = false
+[merge]
+    conflictstyle = diff3
 [diff]
     compactionHeuristic = true
     indentHeuristic = true
+    colorMoved = default
 [push]
     default = current
 [remote]
@@ -28,12 +36,14 @@
 [http "https://gopkg.in"]
     followRedirects = true
 [rebase]
-	autosquash = true
+    autosquash = true
 [include]
     path = config.local
 [credential]
-	helper = cache
+    helper = cache
 [pull]
-	ff = only
+    ff = only
 [advice]
-	skippedCherryPicks = false
+    skippedCherryPicks = false
+[init]
+    defaultBranch = main
