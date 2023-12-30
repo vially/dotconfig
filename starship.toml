@@ -1,5 +1,8 @@
 add_newline = false
 
+[directory]
+disabled = false
+
 [docker_context]
 disabled = true
 
