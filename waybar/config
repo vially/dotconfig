@@ -14,7 +14,7 @@
         "tray"
     ],
     "clock#localtime": {
-        "format": "{:%Y-%m-%d %H:%M:%S}",
+        "format": "{:%Y-%m-%d %H:%M:%OS}",
         "interval": 1,
         "tooltip": true,
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt>{calendar}</tt>"
