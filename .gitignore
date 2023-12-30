@@ -8,75 +8,117 @@ atlascli/
 Android Open Source Project/
 Atom/
 Atom-Shell/
-Code/code.lock
-Code/fileWatcher/
-Code/watcherServiceParcelSharedProcess/
-Code/Crashpad/
-Code/Backups/
-Code/Code Cache/
-Code/Cache/
-Code/CachedConfigurations/
-Code/CachedExtensions/
-Code/CachedExtensionVSIXs/
-Code/CachedData/
-Code/Cookies
-Code/Cookies-journal
-Code/Crash Reports/
-Code/databases/
-Code/Dictionaries/
-Code/exthost Crash Reports/
-Code/GPUCache/
-Code/QuotaManager
-Code/QuotaManager-journal
-Code/User/globalStorage/
-Code/User/History/
-Code/User/workspaceStorage/
-Code/User/globalStorage
-Code/User/sync/
-Code/Local Storage/
-Code/Network Persistent State
-Code/logs/
-Code/Preferences
-Code/rapid_render.json
-Code/Service Worker/
-Code/Session Storage/
-Code/storage.json
-Code/TransportSecurity
-Code/machineid
-Code/.org.chromium.Chromium.*
-Code/WebStorage/
-Code - OSS/Backups/
-Code - OSS/Cache/
-Code - OSS/Code Cache/
-Code - OSS/Cookies
-Code - OSS/Cookies-journal
-Code - OSS/CachedData/
-Code - OSS/CachedExtensions/
-Code - OSS/CachedExtensionVSIXs/
-Code - OSS/Crash Reports/
-Code - OSS/exthost Crash Reports/
-Code - OSS/Dictionaries/
-Code - OSS/GPUCache/
-Code - OSS/Local Storage/
-Code - OSS/Session Storage/
-Code - OSS/User/globalStorage/
-Code - OSS/User/workspaceStorage/
-Code - OSS/User/globalStorage
-Code - OSS/logs/
-Code - OSS/languagepacks.json
-Code - OSS/Network Persistent State
-Code - OSS/Preferences
-Code - OSS/rapid_render.json
-Code - OSS/Session Storage/
-Code - OSS/storage.json
-Code - OSS/TransportSecurity
-Code - OSS/machineid
-Code - OSS/IndexedDB/
-Code - OSS/QuotaManager
-Code - OSS/QuotaManager-journal
-Code - OSS/databases/
-Code - OSS/.org.chromium.Chromium.*
-code-oss-dev/
+/Code - Insiders/.org.chromium.Chromium.*
+/Code - Insiders/Backups/
+/Code - Insiders/Cache/
+/Code - Insiders/CachedConfigurations/
+/Code - Insiders/CachedData/
+/Code - Insiders/CachedExtensionVSIXs/
+/Code - Insiders/CachedProfilesData/
+/Code - Insiders/Code Cache/
+/Code - Insiders/code.lock
+/Code - Insiders/Cookies
+/Code - Insiders/Cookies-journal
+/Code - Insiders/Crashpad/
+/Code - Insiders/databases/
+/Code - Insiders/DawnCache/
+/Code - Insiders/Dictionaries/
+/Code - Insiders/languagepacks.json
+/Code - Insiders/Local Storage/
+/Code - Insiders/logs/
+/Code - Insiders/machineid
+/Code - Insiders/Network Persistent State
+/Code - Insiders/Service Worker/
+/Code - Insiders/Session Storage/
+/Code - Insiders/TransportSecurity
+/Code - Insiders/Trust Tokens
+/Code - Insiders/Trust Tokens-journal
+/Code - Insiders/User/globalStorage/
+/Code - Insiders/User/History/
+/Code - Insiders/User/profiles/
+/Code - Insiders/User/sync/
+/Code - Insiders/User/workspaceStorage/
+/Code - Insiders/WebStorage/
+/Code - OSS/.org.chromium.Chromium.*
+/Code - OSS/Backups/
+/Code - OSS/Cache/
+/Code - OSS/CachedData/
+/Code - OSS/CachedExtensions/
+/Code - OSS/CachedExtensionVSIXs/
+/Code - OSS/CachedProfilesData/
+/Code - OSS/Code Cache/
+/Code - OSS/Cookies
+/Code - OSS/Cookies-journal
+/Code - OSS/Crash Reports/
+/Code - OSS/Crashpad/
+/Code - OSS/databases/
+/Code - OSS/DawnCache/
+/Code - OSS/Dictionaries/
+/Code - OSS/exthost Crash Reports/
+/Code - OSS/GPUCache/
+/Code - OSS/IndexedDB/
+/Code - OSS/languagepacks.json
+/Code - OSS/Local Storage/
+/Code - OSS/logs/
+/Code - OSS/machineid
+/Code - OSS/Network Persistent State
+/Code - OSS/Preferences
+/Code - OSS/QuotaManager
+/Code - OSS/QuotaManager-journal
+/Code - OSS/rapid_render.json
+/Code - OSS/Service Worker/
+/Code - OSS/Session Storage/
+/Code - OSS/Session Storage/
+/Code - OSS/storage.json
+/Code - OSS/TransportSecurity
+/Code - OSS/User/globalStorage
+/Code - OSS/User/globalStorage/
+/Code - OSS/User/History/
+/Code - OSS/User/workspaceStorage/
+/Code - OSS/WebStorage/
+/code-oss-dev/
+/Code/.org.chromium.Chromium.*
+/Code/Backups/
+/Code/Cache/
+/Code/CachedConfigurations/
+/Code/CachedData/
+/Code/CachedExtensions/
+/Code/CachedExtensionVSIXs/
+/Code/CachedProfilesData/
+/Code/Code Cache/
+/Code/code.lock
+/Code/Cookies
+/Code/Cookies-journal
+/Code/Crash Reports/
+/Code/Crashpad/
+/Code/databases/
+/Code/DawnCache/
+/Code/Dictionaries/
+/Code/exthost Crash Reports/
+/Code/fileWatcher/
+/Code/GPUCache/
+/Code/Local Storage/
+/Code/logs/
+/Code/machineid
+/Code/Network Persistent State
+/Code/Preferences
+/Code/QuotaManager
+/Code/QuotaManager-journal
+/Code/rapid_render.json
+/Code/Service Worker/
+/Code/Session Storage/
+/Code/shared_proto_db/
+/Code/storage.json
+/Code/TransportSecurity
+/Code/User/globalStorage
+/Code/User/globalStorage/
+/Code/User/History/
+/Code/User/profiles/
+/Code/User/sync/
+/Code/User/workspaceStorage/
+/Code/VideoDecodeStats/
+/Code/watcherServiceParcelSharedProcess/
+/Code/WebStorage/
 Electron/
 Epic/
 Genymobile/

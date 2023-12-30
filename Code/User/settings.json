@@ -1,218 +1,107 @@
 // Place your settings in this file to overwrite the default settings
 {
-  "vim.useCtrlKeys": true,
-  "vim.useSystemClipboard": true,
-  "vim.enableNeovim": true,
-  "vim.neovimPath": "/usr/bin/nvim",
-  "vim.hlsearch": true,
-  "vim.leader": ",",
-  "vim.handleKeys": {
-    "<C-j>": false
-  },
-  "vim.normalModeKeyBindingsNonRecursive": [
-    {
-      "before": ["<leader>", "t"],
-      "after": [],
-      "commands": ["workbench.action.tasks.runTask"]
-    },
-    {
-      "before": ["<leader>", "b"],
-      "after": [],
-      "commands": ["workbench.action.tasks.build"]
-    },
-    {
-      "before": ["<leader>", "r"],
-      "after": [],
-      "commands": ["workbench.action.tasks.reRunTask"]
-    },
-    {
-      "before": ["<leader>", "l"],
-      "after": [],
-      "commands": ["references-view.find"]
-    }
-  ],
-  "search.exclude": {
-    "**/node_modules": true,
-    "**/bower_components": true,
-    "**/.idea": true,
-    "**/vendor": true
+  "debug.onTaskErrors": "showErrors",
+  "dev.containers.dockerPath": "podman",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
   },
   "editor.cursorStyle": "block",
-  "editor.cursorBlinking": "blink",
-  "editor.wordWrap": "off",
-  "window.zoomLevel": 0,
-  "workbench.iconTheme": "material-icon-theme",
-  "editor.minimap.enabled": true,
-  "git.enableSmartCommit": true,
-  "go.useLanguageServer": true,
-  "go.alternateTools": {
-    "go-langserver": "gopls"
-  },
-  "go.languageServerExperimentalFeatures": {
-    "format": true,
-    "autoComplete": true
-  },
-  "[go]": {
-    "editor.snippetSuggestions": "none",
-    "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-      "source.organizeImports": true
-    }
-  },
-  "gopls": {
-    "usePlaceholders": true
-  },
+  "editor.formatOnSave": true,
+  "editor.inlayHints.enabled": "onUnlessPressed",
+  "editor.stickyScroll.enabled": true,
+  "explorer.confirmDelete": false,
   "files.insertFinalNewline": true,
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[yaml]": {
-    "editor.formatOnSave": false
-  },
-  "gitlens.hovers.currentLine.over": "line",
+  "ghcloner.defaultCloneDirectory": "~/code",
+  "git.enableSmartCommit": true,
+  "githubPullRequests.pullBranch": "never",
   "gitlens.advanced.messages": {
     "suppressCommitHasNoPreviousCommitWarning": false,
     "suppressCommitNotFoundWarning": false,
     "suppressFileNotUnderSourceControlWarning": false,
     "suppressGitVersionWarning": false,
     "suppressLineUncommittedWarning": false,
-    "suppressNoRepositoryWarning": false,
-    "suppressResultsExplorerNotice": false,
-    "suppressShowKeyBindingsNotice": true
+    "suppressNoRepositoryWarning": false
   },
-  "editor.codeActionsOnSave": {
-    "source.organizeImports": true
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.integrations.enabled": false,
+  "gitlens.views.commits.files.layout": "list",
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "javascript.inlayHints.parameterTypes.enabled": true,
+  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "javascript.inlayHints.variableTypes.enabled": true,
+  "projectManager.git.baseFolders": [
+    "~/code"
+  ],
+  "redhat.telemetry.enabled": false,
+  "settingsSync.ignoredExtensions": [
+    "richie5um2.vscode-sort-json"
+  ],
+  "terminal.external.linuxExec": "alacritty",
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.stickyScroll.enabled": false,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "vim.enableNeovim": true,
+  "vim.handleKeys": {
+    "<C-j>": false,
+    "<C-p>": false
   },
-  "explorer.confirmDelete": false,
-  "gitlens.views.fileHistory.enabled": true,
-  "gitlens.views.lineHistory.enabled": true,
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "breadcrumbs.enabled": true,
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "workbench.statusBar.visible": true,
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "peacock.favoriteColors": [
+  "vim.hlsearch": true,
+  "vim.leader": ",",
+  "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "name": "Angular Red",
-      "value": "#b52e31"
+      "after": [],
+      "before": [
+        "<leader>",
+        "t"
+      ],
+      "commands": [
+        "workbench.action.tasks.runTask"
+      ]
     },
     {
-      "name": "Auth0 Orange",
-      "value": "#eb5424"
+      "after": [],
+      "before": [
+        "<leader>",
+        "b"
+      ],
+      "commands": [
+        "workbench.action.tasks.build"
+      ]
     },
     {
-      "name": "Azure Blue",
-      "value": "#007fff"
+      "after": [],
+      "before": [
+        "<leader>",
+        "r"
+      ],
+      "commands": [
+        "workbench.action.tasks.reRunTask"
+      ]
     },
     {
-      "name": "C# Purple",
-      "value": "#68217A"
-    },
-    {
-      "name": "Gatsby Purple",
-      "value": "#639"
-    },
-    {
-      "name": "Go Cyan",
-      "value": "#5dc9e2"
-    },
-    {
-      "name": "Java Blue-Gray",
-      "value": "#557c9b"
-    },
-    {
-      "name": "JavaScript Yellow",
-      "value": "#f9e64f"
-    },
-    {
-      "name": "Mandalorian Blue",
-      "value": "#1857a4"
-    },
-    {
-      "name": "Node Green",
-      "value": "#215732"
-    },
-    {
-      "name": "React Blue",
-      "value": "#00b3e6"
-    },
-    {
-      "name": "Something Different",
-      "value": "#832561"
-    },
-    {
-      "name": "Vue Green",
-      "value": "#42b883"
+      "after": [],
+      "before": [
+        "<leader>",
+        "l"
+      ],
+      "commands": [
+        "references-view.find"
+      ]
     }
   ],
-  "ghcloner.defaultCloneDirectory": "~/code",
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.formatOnSave": true,
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "prettier.singleQuote": true,
-  "diffEditor.ignoreTrimWhitespace": false,
-  "[dart]": {
-    "editor.formatOnSave": true,
-    "editor.formatOnType": true,
-    "editor.rulers": [80],
-    "editor.selectionHighlight": false,
-    "editor.suggest.snippetsPreventQuickSuggestions": false,
-    "editor.suggestSelection": "first",
-    "editor.tabCompletion": "onlySnippets",
-    "editor.wordBasedSuggestions": false
-  },
-  "terminal.external.linuxExec": "alacritty",
-  "angular.experimental-ivy": true,
-  "projectManager.git.baseFolders": ["~/code"],
-  "workbench.startupEditor": "none",
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "dart.debugExternalLibraries": true,
-  "dart.debugSdkLibraries": true,
-  "debug.onTaskErrors": "showErrors",
-  "cmake.configureOnOpen": true,
-  "editor.bracketPairColorization.enabled": true,
-  "gitlens.views.commits.files.layout": "list",
-  "typescript.inlayHints.variableTypes.enabled": true,
-  "javascript.inlayHints.variableTypes.enabled": true,
-  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
-  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
-  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
-  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
-  "javascript.inlayHints.parameterTypes.enabled": true,
-  "typescript.inlayHints.parameterTypes.enabled": true,
-  "mesonbuild.configureOnOpen": true,
-  "redhat.telemetry.enabled": true,
-  "gitlens.currentLine.enabled": false,
-  "gitlens.integrations.enabled": false,
-  "editor.inlayHints.enabled": "onUnlessPressed",
-  "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "window.experimental.commandCenter": true,
-  "apklab.apktoolPath": "/home/vially/.apklab/apktool_2.6.0.jar",
-  "apklab.jadxDirPath": "/home/vially/.apklab/jadx-1.3.2",
-  "apklab.apkSignerPath": "/home/vially/.apklab/uber-apk-signer-1.2.1.jar",
-  "[cpp]": {
-    "editor.defaultFormatter": "xaver.clang-format"
-  },
-  "[svg]": {
-    "editor.defaultFormatter": "jock.svg"
-  },
-  "svg.preview.mode": "svg",
-  "githubPullRequests.pullBranch": "never",
+  "vim.useCtrlKeys": true,
+  "vim.useSystemClipboard": true,
   "window.titleBarStyle": "custom",
-  "editor.stickyScroll.enabled": true,
-  "terminal.integrated.smoothScrolling": true
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.settings.applyToAllProfiles": [
+    "vim.handleKeys",
+    "terminal.integrated.stickyScroll.enabled",
+    "redhat.telemetry.enabled"
+  ],
+  "workbench.startupEditor": "none"
 }
