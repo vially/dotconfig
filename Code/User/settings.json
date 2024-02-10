@@ -36,7 +36,8 @@
   ],
   "redhat.telemetry.enabled": false,
   "settingsSync.ignoredExtensions": [
-    "richie5um2.vscode-sort-json"
+    "richie5um2.vscode-sort-json",
+    "bmalehorn.vscode-fish"
   ],
   "terminal.external.linuxExec": "alacritty",
   "terminal.integrated.smoothScrolling": true,
