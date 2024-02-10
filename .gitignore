@@ -148,7 +148,7 @@ dlv/
 DUI/
 evolution/
 environment.d/local.conf
-balena-etcher-electron/
+balena-etcher/
 filezilla/
 fish/fishd.*
 fish/fish_variables
