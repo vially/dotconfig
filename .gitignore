@@ -2,7 +2,6 @@ albert/snippets/
 albert/albert.db
 albert.conf
 /argocd/
-/hypr/
 /k9s/
 atlascli/
 Android Open Source Project/
@@ -249,3 +248,6 @@ user-dirs.locale
 weston.ini
 Trolltech.conf
 QtProject.conf
+
+# Hyprland ephemeral config
+/hypr/conf.d/ephemeral/
