@@ -1,3 +1,10 @@
+// By default, XKB maps F13-F18 keys to various `XF86*` keys:
+// https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config/-/blob/022c3ca1db12e505cbd5ce8bf19c432d6a70c7e5/symbols/inet#L193-198
+//
+// The keymap below "reverts" these mappings so they map to their actual function keys.
+//
+// See also discussion at:
+// https://forum.manjaro.org/t/strange-default-configuration-for-f13-f24-keys/88879
 xkb_keymap {
 	xkb_keycodes { include "evdev"                    };
 	xkb_types    { include "complete"                 };
