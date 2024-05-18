@@ -69,13 +69,17 @@ function __fltools_build_libflutter_engine
         end
     end
 
+    echo ""
+    cp ~/code/flutter-gn/src/flutter/shell/platform/embedder/embedder.h ~/code/flutter-rs/flutter-engine-sys/
+    __fltools_print_success "Updated \"embedder.h\" to version $flutter_version"
+
     set -l engine_lib_symlink_dst ~/code/flutter-rs/flutter-engine-sys/libflutter_engine.so
     set -l engine_lib_symlink_src ~/.local/share/flutter-embedder-libs/"$flutter_version"/libflutter_engine_debug.so
 
     echo -e "\nUpdating flutter-rs engine symlink"
     rm "$engine_lib_symlink_dst"
     ln -s "$engine_lib_symlink_src" "$engine_lib_symlink_dst"
-    __fltools_print_success "$engine_lib_symlink_dst -> $engine_lib_symlink_src"
+    __fltools_print_success "$engine_lib_symlink_dst - > $engine_lib_symlink_src"
 end
 
 function __fltools_print_success
