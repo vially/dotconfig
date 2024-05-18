@@ -3,5 +3,5 @@ function whoowns
     if not test -e $file_name
         set file_name (command --search $file_name)
     end
-    yay -Qo $file_name
+    paru -Qo $file_name
 end
