@@ -10,15 +10,9 @@
     "modules-right": [
         "pulseaudio",
         "memory",
-        "custom/wlorx",
         "clock#localtime",
         "tray"
     ],
-    "custom/wlorx": {
-        "exec": "~/.config/waybar/scripts/wlorx.sh",
-        "format": "{}",
-        "return-type": "json"
-    },
     "clock#localtime": {
         "format": "{:%Y-%m-%d %H:%M:%OS}",
         "interval": 1,
