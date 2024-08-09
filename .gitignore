@@ -93,6 +93,8 @@ Atom-Shell/
 /Code/Crashpad/
 /Code/databases/
 /Code/DawnCache/
+/Code/DawnGraphiteCache/
+/Code/DawnWebGPUCache/
 /Code/Dictionaries/
 /Code/exthost Crash Reports/
 /Code/fileWatcher/
@@ -123,6 +125,7 @@ Atom-Shell/
 /Code/VideoDecodeStats/
 /Code/watcherServiceParcelSharedProcess/
 /Code/WebStorage/
+/depot_tools/
 Electron/
 Epic/
 Genymobile/
@@ -130,9 +133,10 @@ Google/AndroidStudio*/
 GIMP/
 Hyper/
 MongoDB Compass/
-albert/core.db
-albert/last_used_version
-albert/org.albert.extension.kvstore/
+/albert/config
+/albert/core.db
+/albert/last_used_version
+/albert/org.albert.extension.kvstore/
 aws/
 ayr/
 bottom/
@@ -151,7 +155,7 @@ dlv/
 DUI/
 evolution/
 environment.d/local.conf
-balena-etcher/
+balenaEtcher/
 filezilla/
 fish/fishd.*
 fish/fish_variables
@@ -218,6 +222,7 @@ sublime-merge/
 supertuxkart/
 Thunar/
 teamviewer10/
+/toolbox/
 tint2/
 transmission/
 transmission-remote-gtk/
@@ -251,6 +256,7 @@ user-dirs.locale
 weston.ini
 Trolltech.conf
 QtProject.conf
+/zed/
 
 # Hyprland ephemeral config
 /hypr/conf.d/ephemeral/
