@@ -125,6 +125,56 @@ Atom-Shell/
 /Code/VideoDecodeStats/
 /Code/watcherServiceParcelSharedProcess/
 /Code/WebStorage/
+/Cursor/.org.chromium.Chromium.*
+/Cursor/.updaterId
+/Cursor/languagepacks.json
+/Cursor/Backups/
+/Cursor/Cache/
+/Cursor/CachedConfigurations/
+/Cursor/CachedData/
+/Cursor/CachedExtensions/
+/Cursor/CachedExtensionVSIXs/
+/Cursor/CachedProfilesData/
+/Cursor/Code Cache/
+/Cursor/code.lock
+/Cursor/Cookies
+/Cursor/Cookies-journal
+/Cursor/Crash Reports/
+/Cursor/Crashpad/
+/Cursor/databases/
+/Cursor/DawnCache/
+/Cursor/DawnGraphiteCache/
+/Cursor/DawnWebGPUCache/
+/Cursor/Dictionaries/
+/Cursor/exthost Crash Reports/
+/Cursor/fileWatcher/
+/Cursor/GPUCache/
+/Cursor/Local Storage/
+/Cursor/logs/
+/Cursor/machineid
+/Cursor/Network Persistent State
+/Cursor/Preferences
+/Cursor/QuotaManager
+/Cursor/QuotaManager-journal
+/Cursor/rapid_render.json
+/Cursor/Service Worker/
+/Cursor/Session Storage/
+/Cursor/Shared Dictionary/
+/Cursor/SharedStorage
+/Cursor/shared_proto_db/
+/Cursor/storage.json
+/Cursor/TransportSecurity
+/Cursor/Trust Tokens
+/Cursor/Trust Tokens-journal
+/Cursor/User/globalStorage
+/Cursor/User/globalStorage/
+/Cursor/User/History/
+/Cursor/User/profiles/
+/Cursor/User/sync/
+/Cursor/User/workspaceStorage/
+/Cursor/VideoDecodeStats/
+/Cursor/watcherServiceParcelSharedProcess/
+/Cursor/WebStorage/
 /depot_tools/
 Electron/
 Epic/

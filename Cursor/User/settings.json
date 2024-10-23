@@ -1,0 +1,22 @@
+{
+    "workbench.settings.applyToAllProfiles": [
+        "terminal.integrated.sendKeybindingsToShell",
+        "terminal.integrated.commandsToSkipShell"
+    ],
+    "terminal.integrated.commandsToSkipShell": [
+        "workbench.action.togglePanel",
+        "-aichat.newchataction"
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "l"
+            ],
+            "after": [],
+            "commands": [
+                "references-view.find"
+            ]
+        }
+    ]
+}
