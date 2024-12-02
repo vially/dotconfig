@@ -259,6 +259,7 @@ pulse/
 pipewire/
 ranger/
 rds/
+/rclone/
 spotify/
 Skype/
 skypeforlinux/
@@ -307,6 +308,7 @@ weston.ini
 Trolltech.conf
 QtProject.conf
 /zed/
+/.wrangler/
 
 # Hyprland ephemeral config
 /hypr/conf.d/ephemeral/
