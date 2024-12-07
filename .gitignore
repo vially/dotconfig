@@ -3,10 +3,12 @@ albert/albert.db
 albert.conf
 /argocd/
 /k9s/
+/astro/
 atlascli/
 Android Open Source Project/
 Atom/
 Atom-Shell/
+/Bitwarden/
 /Code - Insiders/.org.chromium.Chromium.*
 /Code - Insiders/Backups/
 /Code - Insiders/Cache/
@@ -111,6 +113,7 @@ Atom-Shell/
 /Code/Session Storage/
 /Code/Shared Dictionary/
 /Code/SharedStorage
+/Code/SharedStorage-wal
 /Code/shared_proto_db/
 /Code/storage.json
 /Code/TransportSecurity
@@ -182,6 +185,7 @@ Genymobile/
 Google/AndroidStudio*/
 GIMP/
 Hyper/
+/go/telemetry/
 MongoDB Compass/
 /albert/config
 /albert/core.db
