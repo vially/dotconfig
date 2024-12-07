@@ -2,6 +2,7 @@ albert/snippets/
 albert/albert.db
 albert.conf
 /argocd/
+/atuin/
 /k9s/
 /astro/
 atlascli/
