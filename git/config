@@ -47,3 +47,8 @@
     skippedCherryPicks = false
 [init]
     defaultBranch = main
+[sendemail]
+    smtpserver = smtp.gmail.com
+    smtpuser = vially.ichb@gmail.com
+    smtpencryption = tls
+    smtpserverport = 587
