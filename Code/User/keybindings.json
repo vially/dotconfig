@@ -25,6 +25,16 @@
         "when": "editorTextFocus && vim.active && vim.use<C-l> && !inDebugRepl"
     },
     {
+        "key": "ctrl+l",
+        "command": "claude-vscode.sidebar.open",
+        "when": "!claude-vscode.sideBarActive || !sideBarVisible"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "workbench.action.toggleAuxiliaryBar",
+        "when": "claude-vscode.sideBarActive"
+    },
+    {
         "key": "ctrl+f",
         "command": "-workbench.action.terminal.focusFind",
         "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
@@ -37,5 +47,5 @@
     {
         "key": "shift+alt+c",
         "command": "issue.copyGithubPermalink"
-    }
+    },
 ]
