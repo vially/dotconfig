@@ -13,6 +13,7 @@ local function load(rel)
     dofile(hypr .. "/conf.d/" .. rel)
 end
 
+load("session.lua")
 load("monitors.lua")
 load("input.lua")
 load("ui.lua")
