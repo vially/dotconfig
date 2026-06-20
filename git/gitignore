@@ -7,3 +7,5 @@
 .wercker/
 *.iml
 gin-bin
+
+**/.claude/settings.local.json
