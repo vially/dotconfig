@@ -154,3 +154,17 @@ QtProject.conf
 
 # Hyprland ephemeral config
 /hypr/conf.d/ephemeral/
+
+# Secrets / credential stores
+/Bitwarden CLI/
+/containers/auth.json
+
+# Runtime state
+/containers/podman-connections.json
+/containers/podman-connections.json.lock
+/cursor/
+/pgcli/
+
+# CLI telemetry
+/tanstack/
+/turborepo/
