@@ -29,12 +29,14 @@ MongoDB Compass/
 /albert/org.albert.extension.kvstore/
 aws/
 ayr/
+b2/
 bottom/
 burp/
 btop/
 calibre/
 cef_user_data/
 chromium/
+chromium-headless/
 configstore/
 cni/net.d/
 dconf/
@@ -50,6 +52,7 @@ filezilla/
 fish/fishd.*
 fish/fish_variables
 fish/completions/fisher.fish
+fish/completions/copilot.fish
 fish/conf.d/local.fish
 flutter/
 fontforge/
